@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mining Guild Arc - Pirate Lords of the Arturi Cluster</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>PLotAC</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rules.html">Rules</a></li>
+                <li><a href="ships.html">Ships</a></li>
+                <li><a href="careers.html">Careers</a></li>
+                <li><a href="factions.html">Factions</a></li>
+                <li><a href="campaign.html" class="active">Campaign</a></li>
+                <li><a href="costs.html">Cost Tables</a></li>
+                <li><a href="abilities.html">Abilities</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="campaign.html">Campaign</a> &gt; <span>Mining Guild Arc</span>
+            </div>
+
+            <h1>Mining Guild Arc</h1>
+            <p style="color: #f0f3bd; font-size: 1.1rem; margin-bottom: 40px;">Primary Opponent: Mining Guild</p>
+            
+            <!-- Mission 1: Protection Racket -->
+            <div class="mission-card">
+                <div class="mission-header">
+                    <h2>Mission 1: Protection Racket</h2>
+                    <div class="mission-meta">
+                        <span class="badge badge-hostile">Territory: Hostile</span>
+                        <span class="badge badge-enemy">Opponents: Mining Guild & Local Patrol</span>
+                    </div>
+                </div>
+
+                <div class="mission-briefing">
+                    <h3>Mission Briefing</h3>
+                    <p>We have encouraged a local asteroid mining company to hire us for protection. They have refused. Lets show them why it would be a good idea by damaging one of their installations. Get in and get out before the Local System Patrols can respond with reinforcements. If we can demonstrate our pilots skill vs theirs it might help convince them they need protecting.</p>
+                </div>
+
+                <div class="mission-section">
+                    <h3>Setup</h3>
+                    <p>Player Setup in Area A</p>
+                </div>
+
+                <div class="mission-section">
+                    <h3>Objective</h3>
+                    <p>Destroy at least 1 cargo module (G) per your Threat Level then at least 1 pirate must escape off a board edge other than edge C.</p>
+                    <p><strong>Bonus Objective:</strong> Destroy at least one Mining Guild Fighter (Modified TIE or Z-95) and lose none of your ships.</p>
+                </div>
+
+                <div class="mission-section">
+                    <h3>Enemy Forces</h3>
+                    <p>Mining Guild TIE Fighters, Z-95 Headhunters, Turrets, Local Patrol</p>
+                    
+                    <div class="table-responsive">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Squad</th>
+                                    <th>Arrival</th>
+                                    <th>Vector</th>
+                                    <th>AI</th>
+                                    <th>3p</th>
+                                    <th>4p</th>
+                                    <th>5p</th>
+                                    <th>6p</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Cargo 1</td>
+                                    <td>Setup</td>
+                                    <td>B</td>
+                                    <td>Special</td>
+                                    <td>1x Lambda Shuttle</td>
+                                    <td>1x Lambda Shuttle</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Alpha</td>
+                                    <td>Setup</td>
+                                    <td>2/3</td>
+                                    <td>Attack</td>
+                                    <td>1x Mining Guild TIE</td>
+                                    <td>+ Mining Guild TIE</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Beta</td>
+                                    <td>Setup</td>
+                                    <td>4/5</td>
+                                    <td>Attack</td>
+                                    <td>1x Mining Guild TIE</td>
+                                    <td>+ Mining Guild TIE</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Gamma</td>
+                                    <td>Turn 6</td>
+                                    <td>1d6</td>
+                                    <td>Attack</td>
+                                    <td>2x Z-95 Headhunters</td>
+                                    <td>+ Z-95 Headhunter</td>
+                                    <td>+Z-95 Headhunter</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Able</td>
+                                    <td>Turn 8</td>
+                                    <td>1d6</td>
+                                    <td>Attack</td>
+                                    <td>1x Skipray Blastboat</td>
+                                    <td>+ Y-Wing</td>
+                                    <td>+ Skipray Blastboat</td>
+                                    <td>+ Y-Wing</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="mission-section">
+                    <h3>Rewards</h3>
+                    <p>40k Credits now (+20k if you destroy at least one mining guild ship and lose no pirate ships) and +2k Credits per pilot after each mission going forward even if that mission is a failure.</p>
+                </div>
+
+                <div class="mission-outcomes">
+                    <div class="outcome-defeat">
+                        <h3>Defeat</h3>
+                        <p>We need to be more convincing than that. Let's regroup and try again later.</p>
+                        <p><strong>Result:</strong> Gain half XP (round up) for this mission. Shuffle this mission card back into the mission deck.</p>
+                    </div>
+                    
+                    <div class="outcome-victory">
+                        <h3>Victory</h3>
+                        <p>The Foreman of the local Guild operation has realized that they do in fact need some higher quality protection and we have come to terms.</p>
+                        <p><strong>Result:</strong> Gain all earned mission rewards and XP. Add Mission Cards for Mining Guild Mission 2 to the Mission Deck.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mission 2: Rude Neighbors -->
+            <div class="mission-card">
+                <div class="mission-header">
+                    <h2>Mission 2: Rude Neighbors</h2>
+                    <div class="mission-meta">
+                        <span class="badge badge-friendly">Territory: Friendly</span>
+                        <span class="badge badge-enemy">Opponents: Hutt Cartel Pirates</span>
+                    </div>
+                </div>
+
+                <div class="mission-briefing">
+                    <h3>Mission Briefing</h3>
+                    <p>We were hired for protection. Now it's time to actually protect. The Mining Guild realized we would be a faster response than the Local Patrols. It seems someone else had the bright idea to try to get protection money from the Guild. Wipe out these fools.</p>
+                </div>
+
+                <div class="mission-section">
+                    <h3>Setup</h3>
+                    <p>Player Setup Area A</p>
+                </div>
+
+                <div class="mission-section">
+                    <h3>Objective</h3>
+                    <p>At least 1 Shuttle and half the cargo modules must survive. Destroy, disable, or make flee all enemy ships.</p>
+                    <p><strong>Bonus Objective:</strong> All Cargo Modules and Shuttles must survive.</p>
+                </div>
+
+                <div class="mission-section">
+                    <h3>Enemy Forces</h3>
+                    <p>Z-95s, Y-Wing, M3-As, Khiraxz</p>
+                    
+                    <div class="table-responsive">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Squad</th>
+                                    <th>Arrival</th>
+                                    <th>Vector</th>
+                                    <th>AI</th>
+                                    <th>3p</th>
+                                    <th>4p</th>
+                                    <th>5p</th>
+                                    <th>6p</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Cargo 1</td>
+                                    <td>Setup</td>
+                                    <td>B</td>
+                                    <td>Special</td>
+                                    <td>2x Lambda Shuttle</td>
+                                    <td>+ Shield</td>
+                                    <td>+Shield</td>
+                                    <td>+Shield</td>
+                                </tr>
+                                <tr>
+                                    <td>Axe</td>
+                                    <td>Setup</td>
+                                    <td>3</td>
+                                    <td>Strike 1</td>
+                                    <td>2x Khiraxz</td>
+                                    <td>+ Khiraxz</td>
+                                    <td>+Khiraxz</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Dagger</td>
+                                    <td>Setup</td>
+                                    <td>1</td>
+                                    <td>Strike 2</td>
+                                    <td>2x M3-A Scyk</td>
+                                    <td>+ M3-A Scyk</td>
+                                    <td>+ M3-A Scyk</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Sentry 1</td>
+                                    <td>Setup</td>
+                                    <td>5</td>
+                                    <td>Escort</td>
+                                    <td>1x Mining Guild TIE</td>
+                                    <td>+ Mining Guild TIE</td>
+                                    <td>+ Mining Guild TIE</td>
+                                    <td>+ Mining Guild TIE</td>
+                                </tr>
+                                <tr>
+                                    <td>Glaive</td>
+                                    <td>Turn 2</td>
+                                    <td>1</td>
+                                    <td>Strike 3</td>
+                                    <td>1x Y-Wing</td>
+                                    <td>+ Y-Wing</td>
+                                    <td>+ Y-Wing</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Sabre</td>
+                                    <td>Turn 4</td>
+                                    <td>1d6</td>
+                                    <td>Attack</td>
+                                    <td>2x Z-95 Headhunters</td>
+                                    <td>+ Z-95 Headhunter</td>
+                                    <td>+Z-95 Headhunter</td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <div class="info-box">
+                        <h4>Special Rules</h4>
+                        <ul>
+                            <li><strong>Strike 1 AI</strong> will target the Shuttles, then Enemy Fighters, then Turrets, then Cargo Modules</li>
+                            <li><strong>Strike 2 AI</strong> will target Enemy Fighters, then Turrets, then Cargo Modules</li>
+                            <li><strong>Strike 3 AI</strong> will target the Cargo Modules, then Enemy fighters, then Turrets</li>
+                            <li>The Turrets and Mining Guild TIEs are friendly to you.</li>
+                            <li>Axe Squadron will be equipped with Proton Rockets. Glaive Squadron will be equipped with Thermal Detonators.</li>
+                            <li>The Shuttles will not move on turn 1 as they are lifting off. Then they will Flee toward board edge C. You may perform the Protect action on the Shuttles. Sentry 1 will also try to Protect the Shuttles as their highest priority action.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="mission-section">
+                    <h3>Rewards</h3>
+                    <p>$5k Credits bounty per Threat Level of each enemy ship you destroy or disable. No reward for ships that flee or ships that the Mining Guild ships and turrets take out. $15k Credits for each Shuttle that survives. $20k Credits if all Cargo Modules survive.</p>
+                </div>
+
+                <div class="mission-outcomes">
+                    <div class="outcome-defeat">
+                        <h3>Defeat</h3>
+                        <p>The Mining Guild is non too happy with our "Protection" service. Those meddlesome scallywags that attacked need to be taught a lesson.</p>
+                        <p><strong>Result:</strong> Gain half XP (round up) for this mission. Add Mission Cards for Mining Guild Mission 3 and Rivals Mission 1 to the Mission Deck.</p>
+                    </div>
+                    
+                    <div class="outcome-victory">
+                        <h3>Victory</h3>
+                        <p>The Foreman tried not to show it but he was pleasantly surprised that we showed up and actually protected the site. Now time to find out who those pirates who trespassed in our space were.</p>
+                        <p><strong>Result:</strong> Gain all earned mission rewards and XP. Add Mission Cards for Mining Guild Mission 3 and Rivals Mission 1 to the Mission Deck.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mission 3: Out Bid -->
+            <div class="mission-card">
+                <div class="mission-header">
+                    <h2>Mission 3: Out Bid</h2>
+                    <div class="mission-meta">
+                        <span class="badge badge-friendly">Territory: Friendly</span>
+                        <span class="badge badge-enemy">Opponents: Mandalorian Mercenaries</span>
+                    </div>
+                </div>
+
+                <div class="mission-briefing">
+                    <h3>Mission Briefing</h3>
+                    <p>It seems the Mining Guild got a new Foreman who no longer wants our protection and have hired a group of Mandalorian mercenaries. They have found our base in the asteroid field. Defend it and send them packing.</p>
+                    <p><strong>Note:</strong> Once this Mission has been drawn from the Mission Deck, players no longer receive protection money from the completion of Mining Guild Mission 1 after every mission.</p>
+                </div>
+
+                <div class="mission-section">
+                    <h3>Setup</h3>
+                    <p>Players setup in Zone A. Place 6 Asteroids randomly in Zone B.</p>
+                </div>
+
+                <div class="mission-section">
+                    <h3>Objective</h3>
+                    <p>Any one of the station's emplacements and at least 1 player ship must survive until the end of round 10. Alternatively, all enemy ships destroyed, disabled or in flee mode by round 10.</p>
+                    <p><strong>Bonus Objective:</strong> Add 1xp per player pilot for each emplacement that was not destroyed after the primary objective has been fulfilled.</p>
+                </div>
+
+                <div class="mission-section">
+                    <h3>Enemy Forces</h3>
+                    <p>Z-95s, Fang Fighters, Firespray Patrol Ships, Gauntlet Troop Transport</p>
+                    
+                    <div class="table-responsive">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Squad</th>
+                                    <th>Arrival</th>
+                                    <th>Vector</th>
+                                    <th>AI</th>
+                                    <th>3p</th>
+                                    <th>4p</th>
+                                    <th>5p</th>
+                                    <th>6p</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Hunter</td>
+                                    <td>Setup</td>
+                                    <td>2</td>
+                                    <td>Strike</td>
+                                    <td>2x Z-95</td>
+                                    <td>+ Z-95</td>
+                                    <td>+ Z-95</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Skull</td>
+                                    <td>Turn 2</td>
+                                    <td>5</td>
+                                    <td>Strike</td>
+                                    <td>2x Fang Fighter</td>
+                                    <td>+ Fang Fighter</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Viper</td>
+                                    <td>Turn 5</td>
+                                    <td>3</td>
+                                    <td>Strike</td>
+                                    <td>1x Firespray</td>
+                                    <td>1x Firespray</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Wraith</td>
+                                    <td>Turn 8</td>
+                                    <td>1d6</td>
+                                    <td>Strike</td>
+                                    <td>1x Gauntlet</td>
+                                    <td>1x Gauntlet</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <div class="info-box">
+                        <h4>Special Rules</h4>
+                        <ul>
+                            <li>The enemy fighters all have Strike AI targeting the nearest station emplacement.</li>
+                            <li><strong>Loaded For Rancor:</strong> The Z-95s in Hunter Squadron are loaded with Concussion Missiles. The Fang fighters in Skull Squadron are loaded with Proton Torpedoes.</li>
+                            <li><strong>Pirate Station:</strong> The station has 2 types of emplacements: Shield Generators and Turbolaser Towers. The amount depends on the number of player pilots. The players control the towers. No XP is gained from damage or kills caused by the towers.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="mission-section">
+                    <h3>Rewards</h3>
+                    <p>10k credits for each small ship, 15k for each medium ship, and 20k for each large ship from the bounties on the heads of the mercenaries you shoot down.</p>
+                </div>
+
+                <div class="mission-outcomes">
+                    <div class="outcome-defeat">
+                        <h3>Defeat</h3>
+                        <p>Such a shame. This was a good hideout. We lost some supplies and need to find a new base now.</p>
+                        <p><strong>Result:</strong> Players and the Company lose half of their banked credits rounded up. Receive half XP for this mission. Receive half credit reward. Add Mission Cards for Mining Guild Mission 4 and [TBD] to the Mission Deck.</p>
+                    </div>
+                    
+                    <div class="outcome-victory">
+                        <h3>Victory</h3>
+                        <p>Ha! You get what you pay for. Those mercs never stood a chance. Guess we need to teach the new Foreman why he needs protection.</p>
+                        <p><strong>Result:</strong> Receive all earned mission rewards and XP. Add Mission Card for Mining Guild Mission 4 to the Mission Deck.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mission 4: Mine Your Manners -->
+            <div class="mission-card">
+                <div class="mission-header">
+                    <h2>Mission 4: Mine Your Manners</h2>
+                    <div class="mission-meta">
+                        <span class="badge badge-hostile">Territory: Hostile (becomes Neutral on success)</span>
+                        <span class="badge badge-enemy">Opponents: Mining Guild & Mandalorian Mercenaries</span>
+                    </div>
+                </div>
+
+                <div class="mission-briefing">
+                    <h3>Mission Briefing</h3>
+                    <p>In spite of the failure of the mercenaries to destroy our base, the Mining Guild has stopped paying for protection. We have located the new Guild Foreman and are preparing to give him an early retirement so we can replace him with someone more agreeable. Be wary as the Mandalorian Mercenaries are still under contract with the Guild.</p>
+                </div>
+
+                <div class="mission-section">
+                    <h3>Setup</h3>
+                    <p>Player setup Zone A with the Patrol Boat. Place 6 asteroids in Zone B Range > 1 apart from each other and board edge. Turbolasers (T) begin facing Zone A.</p>
+                </div>
+
+                <div class="mission-section">
+                    <h3>Objective</h3>
+                    <p>Destroy the Shield Generators. Pilots gain +1xp for destroying a Shield Generator emplacement. After the Shield Generators are destroyed, the Patrol Boat must land in a station docking bay (Bay 1 or 2). The Boarding Team must capture the Command Center module to secure the Guild Foreman. Survive until the end of Turn 12 or destroy all enemies. If the primary objective is completed the Territory changes to Neutral at the end of the battle.</p>
+                    <p><strong>Bonus:</strong> +2xp for each emplacement that is not damaged or destroyed. +$5k credits for each Fuel Tank that is not damaged or destroyed.</p>
+                </div>
+
+                <div class="mission-section">
+                    <h3>Enemy Forces</h3>
+                    <p>Mining Guild Ties, QuadJumpers, Fangs Fighters, Firespray Patrol Ship</p>
+                    
+                    <div class="table-responsive">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Squad</th>
+                                    <th>Arrival</th>
+                                    <th>Vector</th>
+                                    <th>AI</th>
+                                    <th>3p</th>
+                                    <th>4p</th>
+                                    <th>5p</th>
+                                    <th>6p</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Sentry 1</td>
+                                    <td>Setup</td>
+                                    <td>3</td>
+                                    <td>Attack</td>
+                                    <td>3x Mining Guild TIE</td>
+                                    <td>+ Mining Guild TIE</td>
+                                    <td>+ Mining Guild TIE</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Skull</td>
+                                    <td>Setup</td>
+                                    <td>4</td>
+                                    <td>Attack</td>
+                                    <td>1x Fang Fighter</td>
+                                    <td>+ Fang Fighter</td>
+                                    <td>+ Fang Fighter</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Sentry 2</td>
+                                    <td>Turn 4</td>
+                                    <td>Bay 1</td>
+                                    <td>Attack</td>
+                                    <td>2x Mining Guild TIE</td>
+                                    <td>+ Mining Guild TIE</td>
+                                    <td>+ Mining Guild TIE</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Tug Team 1</td>
+                                    <td>Turn 5</td>
+                                    <td>Bay 2</td>
+                                    <td>Attack</td>
+                                    <td>2x Quadjumper</td>
+                                    <td>+ Quadjumper</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Viper</td>
+                                    <td>Turn 8</td>
+                                    <td>1d6</td>
+                                    <td>Attack</td>
+                                    <td>1x Firespray</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Omega</td>
+                                    <td>Turn 13</td>
+                                    <td>1d6</td>
+                                    <td>Attack</td>
+                                    <td>1x Elite Decimator</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Alpha</td>
+                                    <td>Turn 13</td>
+                                    <td>1d6</td>
+                                    <td>Attack</td>
+                                    <td>2x Elite TIE/in Interceptors</td>
+                                    <td>+ Elite TIE/in Interceptor</td>
+                                    <td>+ Elite TIE/in Interceptor</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Delta</td>
+                                    <td>Turn 14</td>
+                                    <td>1d6</td>
+                                    <td>Strike</td>
+                                    <td>2x Elite TIE Advanced/X1</td>
+                                    <td>+ Elite TIE Advanced/X1</td>
+                                    <td>+ Elite TIE Advanced/X1</td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <div class="info-box">
+                        <h4>Special Rules</h4>
+                        <ul>
+                            <li><strong>Station Command Module:</strong> Can give 1 of the Turbolaser modules a Calculate Token each turn before the Turbolasers activate.</li>
+                            <li><strong>Assaulting the Station:</strong> Players ships may perform the Protect action on the Patrol Boat. To Unload the Boarding Team, the Patrol Boat must land in one of the station's Docking Bays after the Shield Generators have been destroyed. Place a Tracking Token on the Docking Bay tile to represent the Boarding Team.</li>
+                            <li><strong>Advancing the Boarding Team:</strong> At the end of each turn, roll 3 attack dice. If the number of hits rolled is equal to or greater than the number of emplacements on that station tile, players may move the commandos to an adjacent station tile. Otherwise, they may destroy one emplacement on that tile or simply wait until the next round. Players may choose if Fuel Tanks destroyed this way explode. The Boarding Teams attack dice can be modified depending on the upgrades purchased for the Patrol Boat.</li>
+                            <li><strong>Capturing the Guild Foreman:</strong> The Boarding Team must reach the large central station module with the Command Center. Then they must succeed in their advancement roll to enter the Command Center and capture the station. Any remaining Turbolaser emplacements are now under Pirate control. Players may choose their facing and attack targets for the rest of the mission. If the command center is destroyed no rewards are gained from completing this mission.</li>
+                            <li><strong>Enemy Target Priority:</strong> Once the station is captured and the turbolasers start shooting at the Mining Guild and mercenary ships, they will attempt to destroy the station's defenses without damaging the rest of the station. Target priority will be any Player ships (including Patrol Boat) in firing arc followed by station turbolaser towers.</li>
+                            <li>If the Pirates have control of the station at the end of turn 12, the territory is considered neutral and the enemy forces retreat and the mission ends. Note: unless you have destroyed or disabled all enemy ships by the end of turn 12, you cannot capture disabled ships.</li>
+                            <li>The Pirates may continue to pursue the primary objective after turn 12 but the Imperial forces will not retreat once the station is captured. Delta squadron has Strike AI against the station if it is captured.</li>
+                            <li>Imperial ships have target priority of Player ships in arc, then station modules in order of Command Center, Turbolaser, Fuel Tank.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="mission-section">
+                    <h3>Rewards</h3>
+                    <p>$60k credits now and a recurring payment of $3k credits per pilot, plus $1k credit for the Company operations after each mission following this one.</p>
+                </div>
+
+                <div class="mission-outcomes">
+                    <div class="outcome-defeat">
+                        <h3>Defeat</h3>
+                        <p>The Mining Guild is going to be a problem if we can't get them under control. We need to regroup and try again.</p>
+                        <p><strong>Result:</strong> Gain half XP for this mission. Add Mission Cards for Acts of Piracy Mission 1 to the Mission Deck.</p>
+                    </div>
+                    
+                    <div class="outcome-victory">
+                        <h3>Victory</h3>
+                        <p>The new Foreman is much more agreeable. We have secured a steady income stream and a valuable ally in the Mining Guild.</p>
+                        <p><strong>Result:</strong> Gain all earned mission rewards and XP. Add Mission Cards for Acts of Piracy Mission 1 to the Mission Deck.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mission-nav">
+                <a href="campaign-intro.html" class="btn-secondary">← Previous: Intro Mission</a>
+                <a href="campaign.html" class="btn-secondary">Back to Campaign Overview</a>
+                <a href="campaign-piracy.html" class="btn-primary">Next: Acts of Piracy Arc →</a>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

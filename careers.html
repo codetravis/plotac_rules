@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pilot Careers - PLotAC</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="nav-title"><a href="index.html">PLotAC</a></h1>
+            <button class="nav-toggle" id="nav-toggle">☰</button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rules.html">Rules</a></li>
+                <li><a href="ships.html">Ships</a></li>
+                <li><a href="careers.html" class="active">Careers</a></li>
+                <li><a href="factions.html">Factions</a></li>
+                <li><a href="campaign.html">Campaign</a></li>
+                <li><a href="costs.html">Cost Tables</a></li>
+                <li><a href="abilities.html">Abilities</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <header class="page-header">
+            <h1>Pilot Careers</h1>
+        </header>
+
+        <section class="section">
+            <h2>Pilot Careers Overview</h2>
+            <p>Each Pirate pilot can follow 1 of 8 Career Paths starting at rank 1. At each Rank the pilot gets access to upgrades and abilities based on their Career. If your pilot dies, feel free to try a different career path with the next one.</p>
+            
+            <p>You can find which pilot ability is available to which Career path in the Pilot Ability tables.</p>
+            
+            <div class="career-cards">
+                <div class="career-card">
+                    <h3>Organizer</h3>
+                    <p>The Organizer is all about coordinating the efforts of the team, moving resources where they are needed and bringing in skilled crew. <strong>You may only have 1 Organizer on your team.</strong> They are the only pilot who may hire and use all non-generic crew with XP instead of Credits, Scum Crew hires this way are treated as permanent upgrades. You may only permanently hire Scum crew for the slots obtained by ranking up, not for the default crew slots on ships. You can still temp hire Scum crew for default ship crew slots using credits.</p>
+                    
+                    <p>A pilot on the Organizer path gets a white Coordinate action at rank 3, a red linked Coordinate at rank 4, and a white linked Coordinate at rank 7. It is possible to link these Coordinate Actions to any Action available for the ship type.</p>
+                    
+                    <p>At rank 5, and 7 the Organizer gains an extra Crew Slot. You may bring along extra crew equal to the number of crew slots you have unlocked on any ship you fly that already had an existing crew slot.</p>
+                    
+                    <p>At ranks 3 and 8 the Organizer gains access to Organizer Pilot Abilities.</p>
+                    
+                    <div class="career-progression">
+                        <ol>
+                            <li>Gain the Red Coordinate Action. Initiative 1. Escape Craft with Novice Technician Crew</li>
+                            <li>Add a Modification slot, Increase Initiative to 2</li>
+                            <li>Upgrade the Red Coordinate to a White Coordinate Action and add 1 Organizer Pilot Ability slot. Increase Initiative to 3</li>
+                            <li>Add a Modification slot, Gain the linked Red Coordinate Action. Increase Initiative to 4</li>
+                            <li>Gain the Cutthroat Talent, Add a Scum Crew hire slot. Increase Initiative to 5</li>
+                            <li>Add a Modification or Sensor slot. Increase Initiative to 6</li>
+                            <li>Gain the linked White Coordinate Action, Add a Scum Crew hire slot.</li>
+                            <li>Add one Elite Talent or 1 Organizer Pilot Ability slot, add 1 Illicit slot</li>
+                        </ol>
+                    </div>
+                </div>
+                
+                <div class="career-card">
+                    <h3>Professional</h3>
+                    <p>The Professional is an ace pilot of remarkable skill. Most are former bounty hunters, mercenary or military. Sometimes all three. They know just where to put their shots and where to position their ship for the most deadly attacks. The Professional has access to the most Elite Talent slots.</p>
+                    
+                    <p>The Professional gets access to the Professional Pilot Abilities and to Elite Talents. At rank 2 you may spend 2xp to gain the Expert Handling Talent. You are able to choose one Professional Pilot Ability or Elite Talent at ranks 3 and 7. At rank 5 you get one of each.</p>
+                    
+                    <div class="career-progression">
+                        <ol>
+                            <li>Initiative 1. TYE-Wing with Bolt On Ion Cannon</li>
+                            <li>Add a Modification slot, Expert Handling Talent slot, Increase Initiative to 2</li>
+                            <li>Add an Elite Talent or Professional Pilot Ability. Increase Initiative to 3</li>
+                            <li>Add a Modification slot. Increase Initiative to 4</li>
+                            <li>Gain the Cutthroat Talent, Add and Elite Talent and a Professional Pilot Ability slot. Increase Initiative to 5.</li>
+                            <li>Add a Modification or Sensor slot. Increase Initiative to 6</li>
+                            <li>Add an Elite Talent or Professional Pilot Ability slot</li>
+                            <li>Add an Illicit or Tech slot</li>
+                        </ol>
+                    </div>
+                </div>
+                
+                <div class="career-card">
+                    <h3>Gambler</h3>
+                    <p>The Gambler is ready to try their luck and uses some unorthodox maneuvers. They are ready to take risks and pull stunts.</p>
+                    
+                    <p>The Gambler gets access to the Gambler Pilot Abilities and to Elite Talents. You are able to choose one Gambler Pilot Ability or Elite Talent at slots 3 and 6. At rank 5 you get an additional Gambler Pilot Ability.</p>
+                    
+                    <div class="career-progression">
+                        <ol>
+                            <li>Initiative 1. TYE-Wing with Scavenged Shield Generator</li>
+                            <li>Add a Modification slot, Increase Initiative to 2</li>
+                            <li>Add an Elite Talent or Gambler Pilot Ability. Increase Initiative to 3</li>
+                            <li>Add a Modification slot. Increase Initiative to 4</li>
+                            <li>Gain the Cutthroat Talent, Add a Gambler Pilot Ability slot. Increase Initiative to 5.</li>
+                            <li>Add an Elite Talent or Gambler Pilot Ability slot. Increase Initiative to 6</li>
+                            <li>Add a Modification slot</li>
+                            <li>Add an Illicit or Sensor slot</li>
+                        </ol>
+                    </div>
+                </div>
+                
+                <div class="career-card">
+                    <h3>Slicer</h3>
+                    <p>The Slicer utilizes technology to cause battlefield disruption. If you need to jam someone, the Slicer is your guy.</p>
+                    
+                    <p>A Slicer gets a Red Jam action at rank 3, a Linked Red Jam at rank 4, and Replace the Red Jam with a White Jam at rank 5, and replace the Red Linked Jam with a White Linked Jam at rank 8. It is possible to link these Jam Actions to any Action available for the ship type.</p>
+                    
+                    <p>The Slicer gets access to Slicer Pilot Abilities at rank 3 and 8 with the option of Pilot Ability or Elite Talent at rank 6. They also get access to the powerful Tech slot at rank 4.</p>
+                    
+                    <p>There are a couple of missions with special actions specific for the Slicer career path.</p>
+                    
+                    <div class="career-progression">
+                        <ol>
+                            <li>Initiative 1. TYE-Wing with Homemade Signal Jammer</li>
+                            <li>Add a Modification slot, Increase Initiative to 2</li>
+                            <li>Add Slicer Pilot Ability slot. Gain Red Jam Action. Increase Initiative to 3</li>
+                            <li>Add Tech slot and Modification slot. Gain Linked Red Jam Action.</li>
+                            <li>Gain the Cutthroat Talent. Replace Red Jam Action with White Jam Action. Increase Initiative to 4.</li>
+                            <li>Add a Modification or Sensor slot and add a Elite Talent slot. Increase Initiative to 5</li>
+                            <li>Add an Illicit slot and a Slicer Pilot Ability. Increase Initiative to 6</li>
+                            <li>Replace the Linked Red Jam Action with a Linked White Jam Action</li>
+                        </ol>
+                    </div>
+                </div>
+                
+                <div class="career-card">
+                    <h3>Gearhead</h3>
+                    <p>The Gearhead has modified their ship beyond belief. There is no such thing as too many upgrades. If you want a hot ride, the Gearhead is your go to.</p>
+                    
+                    <p>Their experience of patching ships together makes all of your Patchwork Ships more reliable. From level 2, they can also create a Patchwork Y-Wing after purchasing a Y-TIE.</p>
+                    
+                    <p>By rank 8, the Gearhead has more extra Mod slots than any other Career path. At ranks 4 and 6 they gain access to Gearhead Pilot Abilities. At rank 4 they get an Red Boost Action for any ship with no boost and a White Boost Action on any ship with a Red Boost.</p>
+                    
+                    <div class="career-progression">
+                        <ol>
+                            <li>Initiative 1. TYE-Wing with Podracer's Handicap. The Patchwork Ship hazard for all ships in your squadron now activates on every damage card after the 2nd instead of the first.</li>
+                            <li>Add a Modification slot, Increase Initiative to 2. Ability to Create a Patchwork Y-Wing.</li>
+                            <li>Add a Modification slot, Increase Initiative to 3</li>
+                            <li>Add a Gearhead Pilot Ability slot. Gain the Red Boost Action for any ship with no Boost and upgrade any Red Boost actions to White.</li>
+                            <li>Gain the Cutthroat Talent, Add a Modification slot. Increase Initiative to 4.</li>
+                            <li>Add an Illicit slot and a Gearhead Pilot Ability slot. Increase Initiative to 5.</li>
+                            <li>Add a Tech or Sensor slot. Increase Initiative to 6</li>
+                            <li>Add an Illicit and Modification slot.</li>
+                        </ol>
+                    </div>
+                </div>
+                
+                <div class="career-card">
+                    <h3>Demolitions</h3>
+                    <p>Demolitions loves everything bombs, missiles and torpedoes. You need to make something go boom, give them a call.</p>
+                    
+                    <p>Demolitions gets a Red Linked Lock action at rank 4, and a White Linked Lock action at rank 7. It is possible to link these Lock Actions to any Action available for the ship type.</p>
+                    
+                    <p>At rank 5 they get a Weapon Hardpoint Slot which allows them to equip an additional Missile, Torpedo, or Cannon slot to any ship they fly.</p>
+                    
+                    <p>At ranks 3, 6, and 8 they gain access to Demolitions pilot abilities.</p>
+                    
+                    <div class="career-progression">
+                        <ol>
+                            <li>Initiative 1. Y-TIE with Improvised Bomb Rack</li>
+                            <li>Add a Modification slot, Increase Initiative to 2, Deadman's Switch no longer adds a Die to your ejection roles.</li>
+                            <li>Add a Demolitions Pilot Ability slot. Increase Initiative to 3</li>
+                            <li>Add a Modification slot. Gain the Linked Red Lock Action.</li>
+                            <li>Gain the Cutthroat Talent. Add a Hardpoint slot. Increase Initiative to 4.</li>
+                            <li>Add a Modification or Sensor slot. Add a Demolitions Pilot Ability slot. Increase Initiative to 5.</li>
+                            <li>Red Linked Lock Action is upgraded to a White Linked Lock Action. Increase Initiative to 6.</li>
+                            <li>Add an Illicit and Demolitions Pilot Ability Slot.</li>
+                        </ol>
+                    </div>
+                </div>
+                
+                <div class="career-card">
+                    <h3>Cyborg</h3>
+                    <p>The Cyborg has had some unfortunate life experiences leaving them part machine. As a result they often find themselves thinking like one, cold and calculating. The upside is they are really good with droids. The Cyborg is the only pilot who may fly the Aggressor Assault Fighter. They are also the only one who can take the IG-88 series Pilot Abilities (note they do not get these abilities for free, just the option to get them by spending XP). Additionally, the Cyborg may hire Scum Crew that are Droids as permanent upgrades using XP.</p>
+                    
+                    <p>If the pilot chooses the cyborg path, they replace their Focus action with a Calculate action.</p>
+                    
+                    <p>The Cyborg gets the option of a droid fighter wingman (represented by a Separatist Drone Vulture Droid) starting at rank 3. The first droid fighter is free but you must pay credits to replace or repair it until completing the Lost Loot mission series if it gets destroyed. For repair cost, make an ejection role. Base repair cost is $2k credits. For each Crit rolled, add $10k to the cost, for each Hit rolled add $5k, for each Focus add $2k, add nothing for blanks. It must deploy within range 1 of the Cyborg when deploying. It adds 15 points to your Total Threat Points when calculating Threat Level.</p>
+                    
+                    <div class="career-progression">
+                        <ol>
+                            <li>Replace the Focus action with the Calculate Action. Initiative 1. TYE-Wing with Contraband Cybernetics</li>
+                            <li>Add a Modification slot, Increase Initiative to 2</li>
+                            <li>Gain a Droid Fighter wingman. Gain the Red Control Droid Action. Increase Initiative to 3.</li>
+                            <li>Gain a Linked Red Calculate Action. Red Control Droid Action upgrades to White. Add the IG-88A Pilot Ability slot.</li>
+                            <li>Gain the Cutthroat Talent. Add the IG-88B Pilot Ability slot. Droid Wingman gains a Modification slot. Increase Initiative to 4.</li>
+                            <li>Add Modification slot and Elite Talent slot. Gain Linked Red Control Droid Action. Droid gains all IG-88 Pilot abilities of Cyborg pilot and all future ones.</li>
+                            <li>Add the IG-88C Pilot Ability slot. Gain the Linked White Calculate Action. Droid Wingman gains a Missile slot. Increase Initiative to 5.</li>
+                            <li>Add the IG-88D Pilot Ability slot and add a Tech slot. Increase Initiative to 6.</li>
+                        </ol>
+                    </div>
+                </div>
+                
+                <div class="career-card">
+                    <h3>Miner</h3>
+                    <p>The Miner was fired from the Mining Guild for "Inappropriate use of Guild Equipment." It seems the Guild did not appreciate the stunt flying and tractor beam tricks being done around the mining sites. The pirates however, do. Before they were let go, the Miner developed a friendship with the Guild's TIE and QuadJumper supplier.</p>
+                    
+                    <p>The Miner has learned all sorts of tricks to pull with the tractor beam as well as a few ways to navigate around debris and asteroids. They can choose to start with the Modified TIE/ln (Mining Guild TIE) and can buy the QuadJumper at a $5k discount. At rank 4 they can choose to install a Tractor Beam Cannon upgrade on any of their ships (must still pay for it).</p>
+                    
+                    <p><strong>Miner Talents:</strong> Backwards Tailslide, Daredevil, Debris Gambit, Elusive, Ensnare, Interloper Turn, Marg Sabl Closure, Gravitic Deflection, Tieferon Belly Run, Trick Shot (Ignore all ship type and other restrictions on these talents when applying to Miner)</p>
+                    
+                    <div class="career-progression">
+                        <ol>
+                            <li>You may fly a Modified TIE/ln (Mining Guild TIE) instead of a TYE-Wing for free. Initiative 1</li>
+                            <li>Add a Modification slot, Increase Initiative to 2</li>
+                            <li>Gain a Miner Talent slot or Miner Pilot Ability slot, Gain the At Home in the Asteroids ability: "While you move, you ignore asteroids", Increase Initiative to 3.</li>
+                            <li>Gain a Modification slot and a Tractor Beam Cannon slot. Increase Initiative to 4.</li>
+                            <li>Gain the Cutthroat Talent. Gain a Miner Pilot Talent slot or Miner Pilot Ability slot. Increase Initiative to 5.</li>
+                            <li>Add Modification slot or Sensor slot. Increase Initiative to 6.</li>
+                            <li>Gain a Miner Talent slot or Miner Pilot Ability slot</li>
+                            <li>Gain a Miner Talent slot or Miner Pilot Ability slot. Gain an Illicit slot.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Career Progression Chart</h2>
+            <div class="table-container">
+                <table class="career-progression-table">
+                    <thead>
+                        <tr>
+                            <th>Path Name</th>
+                            <th>Rank 1 (Free)</th>
+                            <th>Rank 2 (4 XP)</th>
+                            <th>Rank 3 (9 XP)</th>
+                            <th>Rank 4 (16 XP)</th>
+                            <th>Rank 5 (25 XP)</th>
+                            <th>Rank 6 (36 XP)</th>
+                            <th>Rank 7 (49 XP)</th>
+                            <th>Rank 8 (64 XP)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Organizer</strong></td>
+                            <td>I-1 (RCo)</td>
+                            <td>I-2 (Mod)</td>
+                            <td>I-3 (PA)(WCo)</td>
+                            <td>I-4 (Mod)(-> RCor)</td>
+                            <td>I-5 (Cut)(Cr)</td>
+                            <td>I-6 (Mod)/(Sen)</td>
+                            <td>(-> WCor)(Cr)</td>
+                            <td>(Ilct)/(PA)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Professional</strong></td>
+                            <td>I-1</td>
+                            <td>I-2 (Mod)</td>
+                            <td>I-3 (T)/(PA)</td>
+                            <td>I-4 (Mod)</td>
+                            <td>I-5 (Cut)(T)(PA)</td>
+                            <td>I-6 (Mod)/(Sen)</td>
+                            <td>(T)/(PA)</td>
+                            <td>(Ilct)/(Tech)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Gambler</strong></td>
+                            <td>I-1</td>
+                            <td>I-2 (Mod)</td>
+                            <td>I-3 (T)/(PA)</td>
+                            <td>I-4 (Mod)</td>
+                            <td>I-5 (Cut)(PA)</td>
+                            <td>I-6 (T)/(PA)</td>
+                            <td>(Mod)</td>
+                            <td>(Ilct)/(Sen)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Slicer</strong></td>
+                            <td>I-1</td>
+                            <td>I-2 (Mod)</td>
+                            <td>I-3 (PA)(RJam)</td>
+                            <td>(Tech)(Mod)(-> RJam)</td>
+                            <td>I-4 (Cut)(WJam)</td>
+                            <td>I-5 (Mod)/(Sen)(T)</td>
+                            <td>I-6 (Ilct)(PA)</td>
+                            <td>(-> WJam)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Gearhead</strong></td>
+                            <td>I-1</td>
+                            <td>I-2 (Mod)</td>
+                            <td>I-3 (Mod)</td>
+                            <td>(PA)(RBoost/R->WBoost)</td>
+                            <td>I-4 (Cut)(Mod)</td>
+                            <td>I-5 (Ilct)(PA)</td>
+                            <td>I-6 (Tech)/(Sen)</td>
+                            <td>(Ilct)(Mod)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Demolitionist</strong></td>
+                            <td>I-1</td>
+                            <td>I-2 (Mod)</td>
+                            <td>I-3 (PA)</td>
+                            <td>(Mod)(-> RLk)</td>
+                            <td>I-4 (Cut)(Hrdpt)</td>
+                            <td>I-5 (Mod)/(Sen)(PA)</td>
+                            <td>I-6 (-> WLk)</td>
+                            <td>(Ilct)(PA)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Cyborg</strong></td>
+                            <td>I-1 (Foc becomes Calc)</td>
+                            <td>I-2 (Mod)</td>
+                            <td>I-3 (RConDroid)</td>
+                            <td>(IG-88A PA)(-> RCalc)(RConDroid becomes WConDroid)</td>
+                            <td>I-4 (Cut)(IG-88B PA)</td>
+                            <td>(Mod)(T)(-> RConDroid)(Droid gets IG-88 PAs)</td>
+                            <td>I-5 (IG-88C PA)(-> WCalc)</td>
+                            <td>I-6 (IG-88D PA)(Tech)(-> WConDroid)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Miner</strong></td>
+                            <td>I-1</td>
+                            <td>I-2 (Mod)</td>
+                            <td>I-3 (MT)/(PA)(At Home in the Asteroids)</td>
+                            <td>I-4 (Mod)(TracBeam)</td>
+                            <td>I-5 (Cut)(MT)/(PA)</td>
+                            <td>I-6 (Mod)/(Sen)</td>
+                            <td>(MT)/PA)</td>
+                            <td>(MT)/(PA)(Ilct)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="legend">
+                <h4>Legend:</h4>
+                <ul>
+                    <li><strong>I-X:</strong> Initiative X</li>
+                    <li><strong>Mod:</strong> Modification slot</li>
+                    <li><strong>PA:</strong> Pilot Ability slot</li>
+                    <li><strong>T:</strong> Elite Talent slot</li>
+                    <li><strong>Cut:</strong> Cutthroat Talent</li>
+                    <li><strong>Sen:</strong> Sensor slot</li>
+                    <li><strong>Ilct:</strong> Illicit slot</li>
+                    <li><strong>Tech:</strong> Tech slot</li>
+                    <li><strong>Cr:</strong> Crew slot</li>
+                    <li><strong>Hrdpt:</strong> Hardpoint slot</li>
+                    <li><strong>MT:</strong> Miner Talent</li>
+                    <li><strong>TracBeam:</strong> Tractor Beam Cannon slot</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Credits</h2>
+            <p>Piracy, and crime in general, is all about credits. As such, this is the primary resource and one of the main rewards from each mission. Each pilot gets an equal share of the credits earned from each mission. One share is also set aside for running the operation. If the credits do not divide equally, the extra credits go to the operation share.</p>
+            
+            <p>The operation deducts half to pay your support crew (rounded up) and the other half goes into the operation bank. For example if each share is 15k Credits, 8k is used to pay the support crew and 7k from the Company share will go into the operation bank. The players may use this bank to pay for Patrol Boat upgrades.</p>
+            
+            <p>Some missions you will get credits for completing. Some you will get credits for each successful objective completed. And some missions will create an income stream of credits that you get after every mission you complete.</p>
+            
+            <p>Credits can be used to buy new ships and buy upgrades for your existing ships (think U&M points from Flight Group Alpha), and repair your PB-950 Patrol Boat. Potential expansion ideas are using credits for base crew, contacts and hiring mercenaries / bounty hunters to help you on missions.</p>
+            
+            <h3>Selling Your Ship</h3>
+            <p>Sometimes you want to upgrade ships but in order to afford a new one, you need to sell the one you have or one you captures. But the shipyard owners aren't going to want to buy a pirate ship at full price. Also the market demand is always changing.</p>
+            
+            <p>When you wish to sell your ship, roll a D6. On a 1 or 2, you are offered 33% (1/3) of the total value (rounded up), on a 3-5 you are offered 50% (1/2) of the total value (rounded up), and on a 6 you are offered 75% (3/4) of the original value plus 50% (1/2) of all the upgrades (rounded up).</p>
+            
+            <p>For example, you captured a Mining Guild TIE and wish to sell it. If you roll a 1-2 you will be offered $22k/3 = $8k (rounded up), on a 3-5 you will be offered $22k/2 = $11k, and on a 6 you will be offered $22k * 3/4 = $17k (rounded up).</p>
+            
+            <p>You can choose to accept or reject the offer and try again after the next mission.</p>
+        </section>
+
+        <section class="section">
+            <h2>Experience / XP</h2>
+            <p>All of the XP earned from a single mission is pooled and dealt out to the pilots that went on that mission. But it is still important to track individual contributions for the Lead by Example bonus (see below). If a pilot chooses to bank some of the XP and then is killed, that XP is lost. Keeping your experienced pilots alive should be top priority.</p>
+            
+            <p>If earned XP does not divide evenly, the extra XP can be awarded to either the pilot who earned the most XP for the mission or the pilot with the lowest level / least XP to catch them up. (Especially in the case of a pilot being killed and needing to level up a new one)</p>
+            
+            <p>XP can be spent on leveling up your Pilot, Elite Talents, Scum Pilot Abilities, and Scum Crew upgrades for the Organizer and Cyborg Career paths (see Pilot section for more info).</p>
+            
+            <table class="xp-table">
+                <thead>
+                    <tr>
+                        <th>Action</th>
+                        <th>XP Reward</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>During the Engagement Phase each Turn</td>
+                        <td>+ XP</td>
+                    </tr>
+                    <tr>
+                        <td>Deal 1 or more damage to an enemy ship (1x per ship per round)</td>
+                        <td>+1 XP</td>
+                    </tr>
+                    <tr>
+                        <td>Dealing face up damage cards to an Enemy Ship</td>
+                        <td>+1 XP per face up damage card</td>
+                    </tr>
+                    <tr>
+                        <td>Assign 1 or more Red or Orange Token to 1 or More Enemy Ships (max 1x per round)</td>
+                        <td>+1 XP</td>
+                    </tr>
+                    <tr>
+                        <td>Remove a Blue or Green Token from an enemy ship</td>
+                        <td>+1 XP</td>
+                    </tr>
+                    <tr>
+                        <td>Use an ability to suffer 1 damage for another Friendly ship</td>
+                        <td>+2 XP</td>
+                    </tr>
+                    <tr>
+                        <td>Destroy Enemy Emplacement</td>
+                        <td>+1 XP</td>
+                    </tr>
+                    <tr>
+                        <td>Destroy or Permanently Disable an Enemy Ship</td>
+                        <td>+1 XP</td>
+                    </tr>
+                    <tr>
+                        <td>... and Enemy Ship with Threat Level higher than 1</td>
+                        <td>+1 XP per Threat Level</td>
+                    </tr>
+                    <tr>
+                        <td>... and Enemy Ship is Elite</td>
+                        <td>+1 XP for all pilots</td>
+                    </tr>
+                    <tr>
+                        <td>Damage or Kill Assist (see following section)</td>
+                        <td>+1 XP</td>
+                    </tr>
+                    <tr>
+                        <td>Protect action on Mission Objective</td>
+                        <td>+1 XP</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><strong>Negative Points</strong></td>
+                    </tr>
+                    <tr>
+                        <td>Assign a Friendly ship a red or orange token (except lock)</td>
+                        <td>-1 XP</td>
+                    </tr>
+                    <tr>
+                        <td>Deal damage to a Friendly ship</td>
+                        <td>-2 XP per damage dealt</td>
+                    </tr>
+                    <tr>
+                        <td>Deal face up damage to another Friendly ship</td>
+                        <td>-3 XP per damage card</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><strong>During Mission Resolution</strong></td>
+                    </tr>
+                    <tr>
+                        <td>Mission Objective bonus or penalty</td>
+                        <td>See mission description</td>
+                    </tr>
+                    <tr>
+                        <td>Mission Failure, or Eject Role</td>
+                        <td>See mission description and eject table</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <p>Pilots do not gain XP for damage an enemy ship does to itself such as colliding with an asteroid or bumping another enemy ship. They also do not gain XP if a friendly ship (including the Company Patrol Boat) deals the damage. They can still get kill assist XP however if they previously damaged the ship and then it is destroyed by damaging itself or by a friendly ship.</p>
+            
+            <p><strong>Kill and Damage Assists:</strong> If pilot A Coordinates pilot B or uses any ability to give pilot B an action, token, charge, etc; then pilot B does damage to an enemy ship or destroys an enemy ship. Pilot A gains 1 XP for assisting.</p>
+            
+            <p><strong>Lead by Example:</strong> If one pilot earned at least 2 more XP than the next closest pilot in a mission gets, they gain +1 XP after the XP pool is dealt out.</p>
+        </section>
+
+        <section class="section">
+            <h2>Ejection Roles</h2>
+            <p>Whenever a ship is destroyed or disabled, the pilot makes an ejection roll using Red Attack Dice. The number of dice rolled is determined by the Territory of the mission. Some missions change Territory type depending on your success or failure.</p>
+            
+            <p>For Friendly Territory, roll 1 Die. For Neutral Territory roll 2 Dice. For Hostile Territory roll 3 Dice.</p>
+            
+            <p>If your ship is equipped with the Deadman's Switch Illicit upgrade and is destroyed, add 1 Die to your Ejection roll (Does not apply to Demolitions Career from Rank 2+). Do not add a Die if the ship was disabled by ionization instead.</p>
+            
+            <table class="ejection-table">
+                <thead>
+                    <tr>
+                        <th>Eject Results</th>
+                        <th>Consequences</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Crit, Crit, Crit</td>
+                        <td>Pilot Killed – start a new pilot</td>
+                    </tr>
+                    <tr>
+                        <td>Crit, Crit</td>
+                        <td>Permanent Injury – Lose most expensive Pilot Ability or Elite Talent upgrade. Maximum Initiative is decreased by 1. If the Pilot receives 2 Permanent injuries, they retire – start a new pilot.</td>
+                    </tr>
+                    <tr>
+                        <td>Crit</td>
+                        <td>Nerve Damage – Play next mission at 1 Rank lower than you have to a min of 1. If you have not leveled up yet, you pilot plays the next mission at initiative 0.</td>
+                    </tr>
+                    <tr>
+                        <td>Hit</td>
+                        <td>Bacta Treatment Required – Lose 1d6 x 1K (1k-6k) worth of Credits (this can put you in Negative Credits owing the company to be taken out of future earnings)</td>
+                    </tr>
+                    <tr>
+                        <td>Eye</td>
+                        <td>Head Injury – Earn Half XP this mission, rounded down (for Eye, Eye, earn 0 XP for this mission)</td>
+                    </tr>
+                    <tr>
+                        <td>Blank</td>
+                        <td>Ejected Safely</td>
+                    </tr>
+                    <tr>
+                        <td>Crit, Hit, Eye</td>
+                        <td>Not Enough Bacta in the Galaxy – You were very heavily injured. The rest of the crew may vote to save your life by turning you into a Cyborg at a cost of 50k Credits or allow you to pass on. This cost can be paid out of the injured pilots credits, the remaining pilots credits, and the operation credit bank in any combination as agreed on by the surviving crew. You retain all pilot skills and abilities acquired in your current career to this point but all future level ups are on the Cyborg career path. Swap all Focus actions to Calculates. Note: If the pilot was already a Cyborg, they can still be saved. If the cost to save them is paid, treat the ejection as a Double Eye role and they gain no XP as what they learned is lost in their destroyed cybernetics.</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <p>On pilot death, all the credits they have banked are passed on to their next of kin. If they have a spare ship in the hangar, the surviving crew may vote on whether to assign it to a replacement pilot, bid on it to be their spare ship, or sell it and divide the proceeds. The dead pilot does not get a vote. A pilot who retires from 2 permanent injuries takes their spare ship with them.</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

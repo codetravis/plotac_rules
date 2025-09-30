@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rivals Arc - Pirate Lords of the Arturi Cluster</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>PLotAC</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rules.html">Rules</a></li>
+                <li><a href="ships.html">Ships</a></li>
+                <li><a href="careers.html">Careers</a></li>
+                <li><a href="factions.html">Factions</a></li>
+                <li><a href="campaign.html" class="active">Campaign</a></li>
+                <li><a href="costs.html">Cost Tables</a></li>
+                <li><a href="abilities.html">Abilities</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="campaign.html">Campaign</a> &gt; <span>Rivals Arc</span>
+            </div>
+
+            <h1>Rivals Arc</h1>
+            <p style="color: #f0f3bd; font-size: 1.1rem; margin-bottom: 40px;">Primary Opponent: Hutt Cartel</p>
+            
+            <div class="mission-card">
+                <div class="mission-header">
+                    <h2>Mission 1: Send a Message</h2>
+                    <div class="mission-meta">
+                        <span class="badge badge-neutral">Territory: Neutral</span>
+                        <span class="badge badge-enemy">Opponents: Y-TIEs, TYE Wings, M3-As, Kimogila</span>
+                    </div>
+                </div>
+
+                <div class="mission-briefing">
+                    <h3>Mission Briefing</h3>
+                    <p>Guula the Hutt's forces have been encroaching more and more into our hunting grounds in spite of our repeated warnings. Bait in a squad of their low rank pilots with our Patrol Boat as they pass through our space then destroy them to show we mean business.</p>
+                </div>
+
+                <div class="mission-section">
+                    <h3>Setup</h3>
+                    <p>Player setup the Patrol Boat in Area A as bait. Players may deploy from zones 1, 2, 5, or 6 any turn before turn 5. 6 Asteroids randomly placed in Area B but not in Area A.</p>
+                </div>
+
+                <div class="mission-section">
+                    <h3>Objectives</h3>
+                    <p>Destroy a number of Guula the Hutt's ships equal to 1 plus the number of pilots you have (4 for 3 pilots, 5 for 4 pilots, etc) and then escape to hyperspace or fleeing of a board edge. Alternatively destroy all of the Hutt forces. If at any point there are no more enemy ships on the board, the Territory becomes Friendly and the mission ends. Keep the Patrol Boat alive. The Patrol Boat may flee the board any turn after at least 1 pirate pilot has deployed.</p>
+                </div>
+
+                <div class="mission-section">
+                    <h3>Enemy Forces</h3>
+                    <div class="table-responsive">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Squad</th>
+                                    <th>Arrival</th>
+                                    <th>Vector</th>
+                                    <th>AI</th>
+                                    <th>3p</th>
+                                    <th>4p</th>
+                                    <th>5p</th>
+                                    <th>6p</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Patrol Boat</td>
+                                    <td>Setup</td>
+                                    <td>A</td>
+                                    <td>Player</td>
+                                    <td colspan="4">1x Patrol Boat</td>
+                                </tr>
+                                <tr>
+                                    <td>Halberd</td>
+                                    <td>Setup</td>
+                                    <td>3</td>
+                                    <td>Attack</td>
+                                    <td>2x TYE-Wings</td>
+                                    <td>+ TYE-Wing</td>
+                                    <td>+ TYE-Wing</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Trident</td>
+                                    <td>Setup</td>
+                                    <td>4</td>
+                                    <td>Attack</td>
+                                    <td>2x TYE-Wings</td>
+                                    <td>+TYE-Wing</td>
+                                    <td>+ TYE-Wing</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Mace</td>
+                                    <td>Turn 2</td>
+                                    <td>3</td>
+                                    <td>Attack</td>
+                                    <td>2x Y-TIE</td>
+                                    <td>+ Y-TIE</td>
+                                    <td>+Y-TIE</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Morningstar</td>
+                                    <td>Turn 2</td>
+                                    <td>4</td>
+                                    <td>Attack</td>
+                                    <td>2x Y-TIE</td>
+                                    <td>+ Y-TIE</td>
+                                    <td>+Y-TIE</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Dagger</td>
+                                    <td>Turn 4</td>
+                                    <td>3</td>
+                                    <td>Attack</td>
+                                    <td>2x M3-A Scyk</td>
+                                    <td>+ M3-A Scyk</td>
+                                    <td>+ M3-A Scyk</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Blade</td>
+                                    <td>Turn 6</td>
+                                    <td>4</td>
+                                    <td>Attack</td>
+                                    <td>1x M12-L Kimogila</td>
+                                    <td>1x M12-L Kimogila</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <div class="info-box">
+                        <h4>Special Rules</h4>
+                        <p>Players may perform the Escort action on the Patrol Boat to give it a Protect token.</p>
+                    </div>
+                </div>
+
+                <div class="mission-section">
+                    <h3>Rewards</h3>
+                    <p>$10k per Threat Level bounty on each ship destroyed or disabled. No reward for ships that flee or ships that the Mining Guild ships and turrets take out.</p>
+                </div>
+
+                <div class="mission-outcomes">
+                    <div class="outcome-defeat">
+                        <h3>Defeat</h3>
+                        <p>Guula's probably laughing his tail off. We couldn't even take out his lowest ranking goons.</p>
+                        <p><strong>Result:</strong> Gain no credits and half earned XP. Shuffle this mission back into the Mission Deck</p>
+                    </div>
+                    
+                    <div class="outcome-victory">
+                        <h3>Victory</h3>
+                        <p>Maybe that will teach them to stay out of our territory. Be a shame if they decided to escalate things.</p>
+                        <p><strong>Result:</strong> Gain all earned credits and XP. Add Mission Card for Rivals Mission 2 to the Mission Deck.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mission-card">
+                <div class="mission-header">
+                    <h2>Mission 2: Retaliation</h2>
+                    <div class="mission-meta">
+                        <span class="badge badge-neutral">Territory: Neutral</span>
+                        <span class="badge badge-enemy">Opponents: Z-95s, M3-As, Y-Wings, Kihraxz, Kimogila</span>
+                    </div>
+                </div>
+
+                <div class="mission-briefing">
+                    <h3>Mission Briefing</h3>
+                    <p>Guula has decided to escalate and sent a large force into our territory. They have attacked a flight of our recruits who were out scouting. Such a display of disrespect will not be tolerated. Engage them and destroy them or drive them off.</p>
+                </div>
+
+                <div class="mission-section">
+                    <h3>Setup</h3>
+                    <p>Players setup in Zone A. 8 Asteroids randomly placed > range 1 of each other in Zone B, but not in the internal range 3 zone containing C and D zones.</p>
+                </div>
+
+                <div class="mission-section">
+                    <h3>Objectives</h3>
+                    <p>Destroy or make flee all enemy forces. As long as you have at least one ship on the board you are considered pursuing your primary objective.</p>
+                    <p><strong>Bonus Objective:</strong> 2 XP per player for each Scout TYE-Wing that survives until turn 12 or that is still alive when all enemies are cleared off the board.</p>
+                    <p><strong>Alternative Objective:</strong> Survive until turn 12, then escape of any board edge or to hyperspace. If you follow this objective, take the defeat path but receive full earned rewards and XP.</p>
+                </div>
+
+                <div class="mission-section">
+                    <h3>Enemy Forces</h3>
+                    <div class="table-responsive">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Squad</th>
+                                    <th>Arrival</th>
+                                    <th>Vector</th>
+                                    <th>AI</th>
+                                    <th>3p</th>
+                                    <th>4p</th>
+                                    <th>5p</th>
+                                    <th>6p</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Scouts</td>
+                                    <td>Setup</td>
+                                    <td>C</td>
+                                    <td>Attack</td>
+                                    <td>2x TYE-Wings</td>
+                                    <td>+ TYE-Wing</td>
+                                    <td>+ TYE-Wing</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Dagger</td>
+                                    <td>Setup</td>
+                                    <td>D</td>
+                                    <td>Strike</td>
+                                    <td>2x Z-95</td>
+                                    <td>+ Z-95</td>
+                                    <td>+ Z-95</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Axe</td>
+                                    <td>Setup</td>
+                                    <td>E</td>
+                                    <td>Strike</td>
+                                    <td>2x M3-A</td>
+                                    <td>+M3-A</td>
+                                    <td>+ M3-A</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Mace</td>
+                                    <td>Turn 4</td>
+                                    <td>1d6</td>
+                                    <td>Attack</td>
+                                    <td>1x Y-Wing</td>
+                                    <td>+Y-Wing</td>
+                                    <td>+ Y-Wing</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Sabre</td>
+                                    <td>Turn 6</td>
+                                    <td>1d6</td>
+                                    <td>Attack</td>
+                                    <td>1x Khiraxz</td>
+                                    <td>+ Khiraxz</td>
+                                    <td>+ Khiraxz</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Blade</td>
+                                    <td>Turn 9</td>
+                                    <td>1d6</td>
+                                    <td>Attack</td>
+                                    <td>1x M12-L Kimogila</td>
+                                    <td>1x M12-L Kimogila</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <div class="info-box">
+                        <h4>The Scouts</h4>
+                        <p>The Scouts are allies but are not player controlled. They are represented by Pirate Recruit TYE-Wings with a Scavenged Shield Generator at Initiative 1. Players can decide how to set them up in Zone C.</p>
+                        <p>Dagger squadron will be placed in in Zone D as close as possible to and facing the Scout squadron. Dagger has Strike AI on Scouts.</p>
+                    </div>
+                </div>
+
+                <div class="mission-section">
+                    <h3>Rewards</h3>
+                    <p>$5k bounty per threat level of each enemy ship destroyed or disabled by any method. No reward for ships that flee.</p>
+                </div>
+
+                <div class="mission-outcomes">
+                    <div class="outcome-defeat">
+                        <h3>Defeat</h3>
+                        <p>There were too many of them. The Cartel is making this difficult for us. We made need to find some assistance.</p>
+                        <p><strong>Result:</strong> Gain half XP and Credit rewards. Add the Mission Card for Shadowport Search to the Mission Deck</p>
+                    </div>
+                    
+                    <div class="outcome-victory">
+                        <h3>Victory</h3>
+                        <p>The Cartel pilots are no match for our crew. Maybe now Guula will take us seriously.</p>
+                        <p><strong>Result:</strong> Gain all mission rewards. Add Mission Card for Rivals Mission 3 to the Mission Deck.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mission-card">
+                <div class="mission-header">
+                    <h2>Mission 3: Reclaim</h2>
+                    <div class="mission-meta">
+                        <span class="badge badge-hostile">Territory: Hostile</span>
+                        <span class="badge badge-enemy">Opponents: Z-95s, Kihraxz, Kimogilas, YT-2400/1300 Freighters</span>
+                    </div>
+                </div>
+
+                <div class="mission-briefing">
+                    <h3>Mission Briefing</h3>
+                    <p>While our fighters were out patrolling the asteroid field, that sneaky worm Guula sent a force to raid our base and captured it. Luckily our PB-950 was out on a training run and our elite boarding team is ready for revenge. Retake the station and stop any ships from looting our supplies.</p>
+                </div>
+
+                <div class="mission-section">
+                    <h3>Setup</h3>
+                    <p>Player setup in zone A. Place 6 Asteroids in Zone B, random layout Range > 1 from each other and edge. C/D are Cartel escape zones.</p>
+                </div>
+
+                <div class="mission-section">
+                    <h3>Objectives</h3>
+                    <p>Dock the PB-950 on one of the 2 docking bays by round 12. At least 1 of your ships must survive until round 12.</p>
+                    <p><strong>Bonus Objective:</strong> Disable at least 2 enemy freighters trying to escape with our supplies.</p>
+                </div>
+
+                <div class="mission-section">
+                    <h3>Enemy Forces</h3>
+                    <div class="table-responsive">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Squad</th>
+                                    <th>Arrival</th>
+                                    <th>Vector</th>
+                                    <th>AI</th>
+                                    <th>3p</th>
+                                    <th>4p</th>
+                                    <th>5p</th>
+                                    <th>6p</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Dagger</td>
+                                    <td>Setup</td>
+                                    <td>Bay 1</td>
+                                    <td>Attack</td>
+                                    <td>2x Z-95</td>
+                                    <td>+ Z-95</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Sabre</td>
+                                    <td>Setup</td>
+                                    <td>Bay 2</td>
+                                    <td>Strike</td>
+                                    <td>1x Khiraxz</td>
+                                    <td>+ Khiraxz</td>
+                                    <td>+ Khiraxz</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Freighter C1</td>
+                                    <td>Turn 2</td>
+                                    <td>Bay 1</td>
+                                    <td>Escape</td>
+                                    <td colspan="4">1x YT-1300</td>
+                                </tr>
+                                <tr>
+                                    <td>Knife</td>
+                                    <td>Turn 5</td>
+                                    <td>1d6</td>
+                                    <td>Attack</td>
+                                    <td>2x Z-95</td>
+                                    <td>+ Z-95</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Freighter D1</td>
+                                    <td>Turn 6</td>
+                                    <td>Bay 2</td>
+                                    <td>Escape</td>
+                                    <td colspan="4">2x HWK-290</td>
+                                </tr>
+                                <tr>
+                                    <td>Dirk</td>
+                                    <td>Turn 9</td>
+                                    <td>1d6</td>
+                                    <td>Attack</td>
+                                    <td>2x Z-95</td>
+                                    <td>+ Z-95</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Cutlass</td>
+                                    <td>Turn 9</td>
+                                    <td>1d6</td>
+                                    <td>Attack</td>
+                                    <td>2x Khiraxz</td>
+                                    <td>+ Khiraxz</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Freighter C2</td>
+                                    <td>Turn 10</td>
+                                    <td>Bay 1</td>
+                                    <td>Escape</td>
+                                    <td colspan="4">1x YV-666</td>
+                                </tr>
+                                <tr>
+                                    <td>Patrol Boat</td>
+                                    <td>Turn 6</td>
+                                    <td>A</td>
+                                    <td>Player</td>
+                                    <td colspan="4">PB-950 Patrol Boat</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <div class="info-box">
+                        <h4>Pirate Base</h4>
+                        <p>The Pirate Base has 2 remaining Turbolaser emplacements which start facing Zone A. They will fire at player ships until Round 9 as the Cartel flees the station OR until the player has landed the Patrol Boat on the station. Once the Patrol Boat has landed, the Turbolaser emplacements are under player control. Cartel ships will shoot at the Turbolaser emplacements once they are under player control if they have no other targets.</p>
+                        <p>Once the Patrol Boat has landed and you have reached the end of turn 12, the mission is considered over. You can either choose to end it immediately or have all remaining enemy ships change to Flee AI and play it out.</p>
+                        
+                        <h4>Freighters</h4>
+                        <p>The Freighters are fully loaded and as a result have a maximum speed of 3, cannot boost, and their Agility is reduced by 1 (they still receive range bonus). For this mission, each Freighter has a number of shields equal to the number of player ships. All Freighters with turrets start with the turret arc facing forward.</p>
+                        <p>Once a Freighter is reduced to 1-3 Hull, it is considered disabled. Disabled Freighters are considered "Enemy" ships to all other ships for the purposes of bumping (do not roll for damage, may take stress and focus). They will continue drifting at speed 1 straight until they have left the play area or the mission is over. Once they are disabled they do not take actions, perform attacks or take damage from asteroids.</p>
+                        
+                        <h4>Patrol Boat</h4>
+                        <p>The player Patrol Boat arrives on Round 6. To complete the mission the Patrol Boat needs to land in either Docking Bay 1 or 2. If the Patrol Boat is destroyed, the mission is considered a failure. The Patrol Boat may not redeploy once it has landed.</p>
+                        <p>Landing the Patrol Boat in a Docking Bay does not prevent Freighters from deploying from that Docking Bay. Players may perform Protect actions on the Patrol Boat.</p>
+                    </div>
+                </div>
+
+                <div class="mission-section">
+                    <h3>Rewards</h3>
+                    <p>30k credits for each Large base Freighter you disable, 10k for each small base Freighter you disable.</p>
+                    <p><strong>Penalty:</strong> For each Large base Freighter that escapes, you and the company lose 40% of your banked Credits (rounded up). For each small base Freighter that escapes you lose 10% of your banked Credits.</p>
+                </div>
+
+                <div class="mission-outcomes">
+                    <div class="outcome-defeat">
+                        <h3>Defeat</h3>
+                        <p>The Cartel have completely trashed this station. We will need to find another place to stage from as we take revenge.</p>
+                        <p><strong>Result:</strong> Receive half XP from this mission. Receive all earned rewards and penalties. Add bonus mission A New Home to the available mission choices. Add Rivals Mission 4 to the Mission Deck.</p>
+                    </div>
+                    
+                    <div class="outcome-victory">
+                        <h3>Victory</h3>
+                        <p>That's it. Time to get rid of that sneaky worm and his Cartel for good. I think we can get some credits from what remains of these freighters to help fund our retaliation.</p>
+                        <p><strong>Result:</strong> Receive all earned rewards, penalties and XP from this mission. Add Rivals Mission 4 to the Mission Deck.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mission-card">
+                <div class="mission-header">
+                    <h2>Mission 4: Root Out Part 1</h2>
+                    <div class="mission-meta">
+                        <span class="badge badge-hostile">Territory: Hostile</span>
+                        <span class="badge badge-enemy">Opponents: Z-95s, Firesprays, M3-As, Y-Wings</span>
+                    </div>
+                </div>
+
+                <div class="mission-briefing">
+                    <h3>Mission Briefing</h3>
+                    <p>We will not tolerate Guula the Hutt's Cartel presence any longer. Our sources have located one of the Cartel's staging outposts. Start by destroying and looting this staging outposts. Our PB-950 will accompany you to lend fire support and haul back any loot you find.</p>
+                </div>
+
+                <div class="mission-section">
+                    <h3>Setup</h3>
+                    <p>The staging area is represented by a few single station pods with cargo emplacements. Players setup in Zone A. 6 Debris Fields placed in Zone B at Range > 1 from each other and initial ships.</p>
+                </div>
+
+                <div class="mission-section">
+                    <h3>Objectives</h3>
+                    <p>The PB-950 Patrol Boat must survive. Destroy or capture all Cargo Emplacements. The PB-950 can hold up to 5 Cargo. All Firespray craft must be destroyed.</p>
+                </div>
+
+                <div class="mission-section">
+                    <h3>Enemy Forces</h3>
+                    <div class="table-responsive">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Squad</th>
+                                    <th>Arrival</th>
+                                    <th>Vector</th>
+                                    <th>AI</th>
+                                    <th>3p</th>
+                                    <th>4p</th>
+                                    <th>5p</th>
+                                    <th>6p</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Dagger</td>
+                                    <td>Setup</td>
+                                    <td>3</td>
+                                    <td>Attack</td>
+                                    <td>2x Z-95</td>
+                                    <td>+ Z-95</td>
+                                    <td>+Z-95</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Knife</td>
+                                    <td>Setup</td>
+                                    <td>4</td>
+                                    <td>Attack</td>
+                                    <td>2x Z-95</td>
+                                    <td>+ Z-95</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Hammer</td>
+                                    <td>Setup</td>
+                                    <td>Special</td>
+                                    <td>Strike</td>
+                                    <td>1x Firespray</td>
+                                    <td>+ Shield</td>
+                                    <td>+ Shield</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Sledge</td>
+                                    <td>Setup</td>
+                                    <td>Special</td>
+                                    <td>Strike</td>
+                                    <td>1x Firespray</td>
+                                    <td>+ Shield</td>
+                                    <td>+ Shield</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Patrol Boat</td>
+                                    <td>Setup</td>
+                                    <td>A</td>
+                                    <td>Player</td>
+                                    <td colspan="4">PB-950 Patrol Boat</td>
+                                </tr>
+                                <tr>
+                                    <td>Dirk</td>
+                                    <td>Turn 5</td>
+                                    <td>1d6</td>
+                                    <td>Attack</td>
+                                    <td>2x M3-A Scyk</td>
+                                    <td>+ M3-A Scyk</td>
+                                    <td>+ M3-A Scyk</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Mace</td>
+                                    <td>Turn 9</td>
+                                    <td>1d6</td>
+                                    <td>Strike</td>
+                                    <td>2x Y-Wing</td>
+                                    <td>+ Y-Wing</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <div class="info-box">
+                        <h4>Special Rules</h4>
+                        <p>All enemy ships with Strike AI have it against the Patrol Boat. They will take shots at the Patrol Boat even over Range 1 shots on any other target if they can fire at the Patrol Boat.</p>
+                        
+                        <h4>Picking up Cargo</h4>
+                        <p>In order to pick up a Cargo emplacement, the ship attempting to pick up must overlap with its base and spend an action to Acquire Cargo. Only Large Base ships, Medium Base ships, the Quadjumper and the HWK-290 may take the Acquire Cargo action. Quadjumpers and HWK-290s may only acquire 1 cargo each. Large Base ships may acquire up to 3 Cargo. Medium Base ships may acquire up to 2 Cargo. The Company Patrol Boat may acquire up to 5 Cargo.</p>
+                        <p>If a ship has the maximum number of Cargo that it can carry, it is considered Fully Loaded and has the following restrictions / special rules:</p>
+                        <ul>
+                            <li>Max speed of 3</li>
+                            <li>May not Boost</li>
+                            <li>May not Barrel Roll</li>
+                            <li>May not SLAM</li>
+                            <li>May not Cloak or gain Cloak tokens</li>
+                            <li>A Critical Hit will cause 1 Cargo to drop using the speed 1 straight template</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="mission-section">
+                    <h3>Rewards</h3>
+                    <p>25k Credits for each cargo emplacement you escape with.</p>
+                </div>
+
+                <div class="mission-outcomes">
+                    <div class="outcome-defeat">
+                        <h3>Defeat</h3>
+                        <p>We absolutely must strip the Cartel of its supplies. Get back out there and hit them again.</p>
+                        <p><strong>Result:</strong> Gain no rewards or XP for this mission. Reshuffle this mission back into the Mission Deck.</p>
+                    </div>
+                    
+                    <div class="outcome-victory">
+                        <h3>Victory</h3>
+                        <p>Great job. This is the first step in kicking the Cartel out of this system. This cargo was rightfully ours anyway. Loot from freighters the Cartel has hit in our territory.</p>
+                        <p><strong>Result:</strong> Gain all earned rewards and XP for this mission. Add Rivals Mission 5 to the Mission Deck.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mission-card">
+                <div class="mission-header">
+                    <h2>Mission 5: Root Out Part 2</h2>
+                    <div class="mission-meta">
+                        <span class="badge badge-hostile">Territory: Hostile (becomes Friendly on capture)</span>
+                        <span class="badge badge-enemy">Opponents: Khiraxz, M3-As, Kimogilas, YT-2400, YT-1300, station emplacements</span>
+                    </div>
+                </div>
+
+                <div class="mission-briefing">
+                    <h3>Mission Briefing</h3>
+                    <p>One of Guula the Hutt's lieutenants has decided that we are likely to be the winner's in this engagement and has sold out the location of Guula's main base of operation in this system. Time to take it for ourselves and kick the Hutt Cartel out.</p>
+                </div>
+
+                <div class="mission-section">
+                    <h3>Setup</h3>
+                    <p>Player setup in zone A. Assemble the Cartel space station as shown in mission diagram.</p>
+                </div>
+
+                <div class="mission-section">
+                    <h3>Objectives</h3>
+                    <p>Destroy all Shield Generators. Then your PB-950 must land in one of the docking bays of the Hutt Cartel Station. The Station must be captured.</p>
+                    <p><strong>Bonus Objective:</strong> Disable freighters fleeing with supplies for additional rewards.</p>
+                </div>
+
+                <div class="mission-section">
+                    <h3>Enemy Forces</h3>
+                    <div class="table-responsive">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Squad</th>
+                                    <th>Arrival</th>
+                                    <th>Vector</th>
+                                    <th>AI</th>
+                                    <th>3P</th>
+                                    <th>4P</th>
+                                    <th>5P</th>
+                                    <th>6P</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Patrol Boat</td>
+                                    <td>Setup</td>
+                                    <td>A</td>
+                                    <td>Player</td>
+                                    <td colspan="4"></td>
+                                </tr>
+                                <tr>
+                                    <td>Sabre</td>
+                                    <td>Setup</td>
+                                    <td>5</td>
+                                    <td>Attack</td>
+                                    <td>2 Khiraxz Elites</td>
+                                    <td>+ Khiraxz Elite</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Dagger</td>
+                                    <td>Round 4</td>
+                                    <td>1d6</td>
+                                    <td>Attack</td>
+                                    <td>2 M3-A Scyks</td>
+                                    <td>+ M3-A Scyk</td>
+                                    <td>+ M3-A Scyk</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Freighter One</td>
+                                    <td>Round 8</td>
+                                    <td>Bay 1</td>
+                                    <td>Escape</td>
+                                    <td>Elite YT-1300</td>
+                                    <td>+ Shield</td>
+                                    <td>+ Shield</td>
+                                    <td>+Shield</td>
+                                </tr>
+                                <tr>
+                                    <td>Freighter Two</td>
+                                    <td>Round 8</td>
+                                    <td>Bay 2</td>
+                                    <td>Escape</td>
+                                    <td>Elite YT-2400</td>
+                                    <td>+ Shield</td>
+                                    <td>+ Shield</td>
+                                    <td>+ Shield</td>
+                                </tr>
+                                <tr>
+                                    <td>Glaive</td>
+                                    <td>Round 8</td>
+                                    <td>1d6</td>
+                                    <td>Attack</td>
+                                    <td>Kimogila</td>
+                                    <td>+ Kimogila</td>
+                                    <td>+ Kimogila</td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <div class="info-box">
+                        <h4>Assaulting the Station</h4>
+                        <p>Players ships may perform the Protect action on the Patrol Boat. To Unload the Boarding Team, the Patrol Boat must land in one of the station's Docking Bays after the Shield Generators have been destroyed. Place a Tracking Token on the Docking Bay tile to represent the Boarding Team.</p>
+                        <p>The Patrol Boat may deploy from the Docking Bay that it landed in on any of the following rounds.</p>
+                        
+                        <h4>Advancing the Boarding Team</h4>
+                        <p>At the end of each turn, roll 3 attack dice. If the number of hits rolled is equal to or greater than the number of emplacements on that station tile, players may move the commandos to an adjacent station tile. Otherwise, they may destroy one emplacement on that tile or simply wait until the next round. Players may choose if Fuel Tanks destroyed this way explode.</p>
+                        <p>The Boarding Teams attack dice can be modified depending on the upgrades purchased for the Patrol Boat.</p>
+                        
+                        <h4>Capturing the Station</h4>
+                        <p>The Boarding Team must reach the large central station module with the Command Center. Then they must succeed in their advancement roll to enter the Command Center and capture the station. Any remaining Turbolaser emplacements are now under Pirate control. Players may choose their facing and attack targets for the rest of the mission. If the command center is destroyed Credit rewards are reduced by half.</p>
+                        
+                        <h4>Freighter Escape AI</h4>
+                        <p>The Freighter that launches from Bay 1 will attempt to escape through Vector 6. The Freighter that launches from Bay 2 will attempt to escape through Vector 1.</p>
+                    </div>
+                </div>
+
+                <div class="mission-section">
+                    <h3>Rewards</h3>
+                    <p>80k Credits. +20k Credits for each Freighter that is destroyed or disabled before it escapes.</p>
+                </div>
+
+                <div class="mission-outcomes">
+                    <div class="outcome-defeat">
+                        <h3>Defeat</h3>
+                        <p>We must rid the system of these trespassers. Lets regroup and come up with a new assault plan.</p>
+                        <p><strong>Result:</strong> No Credit rewards gained. Reshuffle this mission back into the Mission Deck.</p>
+                    </div>
+                    
+                    <div class="outcome-victory">
+                        <h3>Victory</h3>
+                        <p>The Cartel will think twice before attempting to muscle in on our territory again. We have made it very unprofitable for them.</p>
+                        <p><strong>Result:</strong> Full earned rewards gained. Treat end of mission as friendly territory. Add Rivals Mission 6 to the Mission Deck.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mission-card">
+                <div class="mission-header">
+                    <h2>Mission 6: Salt to a Slug</h2>
+                    <div class="mission-meta">
+                        <span class="badge badge-hostile">Territory: Hostile</span>
+                        <span class="badge badge-enemy">Opponents: Star Vipers, Fang Fighters, Firesprays, JumpMaster 5000, G-1A Starfighter, CR90 Corvette</span>
+                    </div>
+                </div>
+
+                <div class="mission-briefing">
+                    <h3>Mission Briefing</h3>
+                    <p>Guula the Hutt is slinking out to the edge of the asteroid belt in his CR90 Flagship. He has his personal guard and some hired bounty hunters and mercenaries for protection as we have decimated his pirate force. Don't let him get away or he will return with more forces.</p>
+                </div>
+
+                <div class="mission-section">
+                    <h3>Setup</h3>
+                    <p>Players setup in Zone A. Guula's CR90 Flagship and escorts setup as shown in mission diagram. 6 Asteroids placed in Zone B.</p>
+                </div>
+
+                <div class="mission-section">
+                    <h3>Objectives</h3>
+                    <p>Destroy or capture Guula the Hutt's flagship. At least 1 of your ships and the PB-950 must survive until the CR90 is captured or destroyed.</p>
+                </div>
+
+                <div class="mission-section">
+                    <h3>Enemy Forces</h3>
+                    <p><em>Full enemy force composition and special rules to be determined based on player threat level and campaign progression.</em></p>
+                    <p>Expected forces include:</p>
+                    <ul>
+                        <li>Guula's Personal Guard in Star Vipers</li>
+                        <li>Mandalorian Mercenaries in Fang Fighters</li>
+                        <li>Bounty Hunters in Firesprays, JumpMaster 5000s, and G-1A Starfighters</li>
+                        <li>Guula's CR90 Flagship with heavy armament</li>
+                    </ul>
+                </div>
+
+                <div class="mission-section">
+                    <h3>Rewards</h3>
+                    <p>Variable based on mission completion and cargo recovered from Guula's flagship.</p>
+                </div>
+
+                <div class="mission-outcomes">
+                    <div class="outcome-defeat">
+                        <h3>Defeat</h3>
+                        <p>Guula has escaped. He will surely return with reinforcements and make our lives very difficult.</p>
+                        <p><strong>Result:</strong> Gain half XP for this mission. Guula will return as a recurring threat.</p>
+                    </div>
+                    
+                    <div class="outcome-victory">
+                        <h3>Victory</h3>
+                        <p>Guula the Hutt is no more. His Cartel is broken and scattered. We are now the undisputed pirate lords of this sector.</p>
+                        <p><strong>Result:</strong> Gain all earned rewards and XP. The Hutt Cartel threat is eliminated from the campaign.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info-box" style="margin-top: 40px;">
+                <h3>Additional Missions in This Arc</h3>
+                <ul>
+                    <li><strong>Mission 2: Retaliation</strong> - Defend against a Hutt Cartel attack on your scouts</li>
+                    <li><strong>Mission 3: Reclaim</strong> - Retake your base from Hutt Cartel forces</li>
+                    <li><strong>Mission 4: Root Out Part 1</strong> - Destroy a Hutt Cartel staging outpost</li>
+                    <li><strong>Mission 5: Root Out Part 2</strong> - Capture Guula's main base of operations</li>
+                    <li><strong>Mission 6: Salt to a Slug</strong> - Hunt down Guula the Hutt's flagship</li>
+                </ul>
+                <p><em>Full mission details for these missions will be added in future updates.</em></p>
+            </div>
+
+            <div class="mission-nav">
+                <a href="campaign-illicit.html" class="btn-secondary">← Previous: Illicit Activity Arc</a>
+                <a href="campaign.html" class="btn-secondary">Back to Campaign Overview</a>
+                <a href="campaign-lost-loot.html" class="btn-primary">Next: Lost Loot Arc →</a>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
