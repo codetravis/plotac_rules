@@ -118,6 +118,62 @@ body {
   color: #333;
 }
 
+/* Submenu Navigation */
+.submenu {
+  background: linear-gradient(135deg, #16213e 0%, #1a1a2e 100%);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 70px;
+  width: 100%;
+  z-index: 999;
+  border-bottom: 1px solid rgba(233, 69, 96, 0.3);
+}
+
+.submenu-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #e94560 #1a1a2e;
+}
+
+.submenu-container::-webkit-scrollbar {
+  height: 6px;
+}
+
+.submenu-container::-webkit-scrollbar-track {
+  background: #1a1a2e;
+}
+
+.submenu-container::-webkit-scrollbar-thumb {
+  background: #e94560;
+  border-radius: 3px;
+}
+
+.submenu-link {
+  color: #f0f3bd;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.9rem;
+  padding: 12px 16px;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+  border-bottom: 2px solid transparent;
+}
+
+.submenu-link:hover {
+  color: #e94560;
+  border-bottom-color: #e94560;
+}
+
+.submenu-link.active {
+  color: #e94560;
+  border-bottom-color: #e94560;
+}
+
 /* Main content */
 .main-content {
   margin-top: 70px;
@@ -318,7 +374,34 @@ tr:hover {
   min-width: 800px;
 }
 
+.abilities-container section {
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  border: 2px solid #e94560;
+  border-radius: 15px;
+  padding: 25px;
+  margin: 30px 0;
+  box-shadow: 0 8px 25px rgba(233, 69, 96, 0.15);
+}
+
 /* Ship and upgrade cards */
+.cost-note {
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  border: 2px solid #e94560;
+  border-radius: 15px;
+  padding: 25px;
+  margin: 30px 0;
+  box-shadow: 0 8px 25px rgba(233, 69, 96, 0.15);
+}
+
+.costs-tables section {
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  border: 2px solid #e94560;
+  border-radius: 15px;
+  padding: 25px;
+  margin: 30px 0;
+  box-shadow: 0 8px 25px rgba(233, 69, 96, 0.15);
+}
+
 .ship-card,
 .upgrade-card,
 .career-card {
@@ -345,6 +428,16 @@ tr:hover {
   font-size: 1.6rem;
   margin-bottom: 15px;
   text-shadow: 0 2px 4px rgba(233, 69, 96, 0.3);
+}
+
+.ship-card-img {
+  width: 312px;
+  display: block;
+  margin: 0 auto;
+}
+
+.upgrade-card-img {
+  height: 312px;
 }
 
 .ship-stats table {
@@ -475,6 +568,17 @@ tr:hover {
 }
 
 /* Campaign-specific styles */
+.campaign-intro {
+  border: 2px solid #e94560;
+  border-radius: 15px;
+  padding: 25px;
+  margin: 30px 0;
+  box-shadow: 0 8px 25px rgba(233, 69, 96, 0.15);
+}
+
+.campaign-intro .warning-box {
+  color:#cf1818;
+}
 
 /* Campaign overview grid */
 .arc-grid {

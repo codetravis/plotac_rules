@@ -30,15 +30,34 @@
         </div>
     </nav>
 
+    <nav class="submenu">
+        <div class="submenu-container">
+            <a href="#ship-dealers" class="submenu-link">Ship Dealers</a>
+            <a href="#astromech" class="submenu-link">Astromech</a>
+            <a href="#cannon" class="submenu-link">Cannon</a>
+            <a href="#crew" class="submenu-link">Crew</a>
+            <a href="#gunner" class="submenu-link">Gunner</a>
+            <a href="#illicit" class="submenu-link">Illicit</a>
+            <a href="#missile" class="submenu-link">Missile</a>
+            <a href="#modification" class="submenu-link">Modification</a>
+            <a href="#payload" class="submenu-link">Payload</a>
+            <a href="#sensor" class="submenu-link">Sensor</a>
+            <a href="#tech" class="submenu-link">Tech</a>
+            <a href="#title" class="submenu-link">Title</a>
+            <a href="#torpedo" class="submenu-link">Torpedo</a>
+            <a href="#turret" class="submenu-link">Turret</a>
+        </div>
+    </nav>
+
     <main class="main-content">
-        <div class="container">
+        <div class="container costs-tables">
             <h1>Ship, Modification, and Ability Cost Tables</h1>
             
             <div class="cost-note">
                 <p><strong>Note:</strong> All upgrade costs are in Thousands of Credits. If something cost 6, that means $6K Credits. If the cost/threat points column has a single number then that number also represents how many threat points are added to your ship when the upgrade is applied. If the number is split (i.e. 5/3) then the first number is the cost in thousands of credits and the second number is the number of threat points.</p>
             </div>
 
-            <section class="ship-dealers">
+            <section class="ship-dealers" id="ship-dealers">
                 <h2>Ship Dealers</h2>
                 
                 <div class="dealer-section">
@@ -51,8 +70,7 @@
                                 <th>Cost</th>
                                 <th>Ship Model</th>
                                 <th>Slots</th>
-                                <th>Base</th>
-                                <th>Threat Value</th>
+                                <th>Base Threat Value</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -60,190 +78,163 @@
                                 <td>Free</td>
                                 <td>TYE-Wing</td>
                                 <td>Illicit</td>
-                                <td>1</td>
-                                <td>0</td>
+                                <td>10</td>
                             </tr>
                             <tr>
                                 <td>$11k</td>
                                 <td>Y-TIE</td>
                                 <td>Illicit, Mod, Turret, Astromech</td>
-                                <td>1</td>
-                                <td>5</td>
+                                <td>15</td>
                             </tr>
                             <tr>
                                 <td>*</td>
                                 <td>Patchwork Y-Wing</td>
                                 <td>Illicit, Mod, Turret, Astromech</td>
-                                <td>1</td>
-                                <td>7</td>
+                                <td>17</td>
                             </tr>
                             <tr>
                                 <td>$22k</td>
                                 <td>Modified TIE/ln</td>
                                 <td>Mod</td>
-                                <td>2</td>
-                                <td>0</td>
+                                <td>20</td>
                             </tr>
                             <tr>
                                 <td>$22k</td>
                                 <td>Z-95 Headhunter</td>
                                 <td>Missile, Illicit, Mod</td>
-                                <td>2</td>
-                                <td>2</td>
+                                <td>22</td>
                             </tr>
                             <tr>
                                 <td>$25k</td>
                                 <td>M3-A Interceptor</td>
                                 <td>Hardpoint, Mod</td>
-                                <td>2</td>
-                                <td>5</td>
+                                <td>25</td>
                             </tr>
                             <tr>
                                 <td>$28k</td>
                                 <td>Escape Craft</td>
                                 <td>Crew, Mod</td>
-                                <td>1</td>
-                                <td>2</td>
+                                <td>12</td>
                             </tr>
                             <tr>
                                 <td>$30k</td>
                                 <td>HWK-290</td>
                                 <td>Crew, Payload, Illicit, Mod, Mod</td>
-                                <td>3</td>
-                                <td>0</td>
+                                <td>30</td>
                             </tr>
                             <tr>
                                 <td>$30k</td>
                                 <td>Quadrijet Space Tug</td>
                                 <td>Tech, Crew, Payload, Illicit, Mod</td>
-                                <td>3</td>
-                                <td>0</td>
+                                <td>30</td>
                             </tr>
                             <tr>
                                 <td>$32k</td>
                                 <td>Y-Wing</td>
                                 <td>Turret, Torpedo, Missile, Payload, Illicit, Astromech, Mod</td>
-                                <td>3</td>
-                                <td>2</td>
+                                <td>32</td>
                             </tr>
                             <tr>
                                 <td>$37k</td>
                                 <td>Rogue-class Fighter</td>
                                 <td>Cannon, Cannon, Illicit, Mod</td>
-                                <td>3</td>
-                                <td>5</td>
+                                <td>35</td>
                             </tr>
                             <tr>
                                 <td>$40k</td>
                                 <td>Khiraxz Fighter</td>
                                 <td>Missile, Illicit, Illicit, Mod, Mod</td>
-                                <td>4</td>
-                                <td>1</td>
+                                <td>41</td>
                             </tr>
                             <tr>
                                 <td>$41k</td>
                                 <td>Fang Fighter</td>
                                 <td>Torpedo, Mod</td>
-                                <td>4</td>
-                                <td>1</td>
+                                <td>41</td>
                             </tr>
                             <tr>
                                 <td>$41k</td>
                                 <td>G-1A Starfighter</td>
                                 <td>Sensor, Crew, Crew, Illicit, Mod</td>
-                                <td>4</td>
-                                <td>1</td>
+                                <td>41</td>
                             </tr>
                             <tr>
                                 <td>$42k</td>
                                 <td>JumpMaster 5000</td>
                                 <td>Cannon, Torpedo, Gunner, Crew, Illicit, Mod</td>
-                                <td>4</td>
-                                <td>1</td>
+                                <td>41</td>
                             </tr>
                             <tr>
                                 <td>$44k</td>
                                 <td>M12-L Kimogila</td>
                                 <td>Torpedo, Missile, Astromech, Illicit, Mod</td>
-                                <td>4</td>
-                                <td>1</td>
+                                <td>41</td>
                             </tr>
                             <tr>
                                 <td>$45k</td>
                                 <td>Scuurg H-6</td>
                                 <td>Turret, Crew, Gunner, Payload, Payload, Mod</td>
-                                <td>4</td>
-                                <td>5</td>
+                                <td>45</td>
                             </tr>
                             <tr>
                                 <td>$47k</td>
                                 <td>ST-70 Assault Ship</td>
                                 <td>Crew, Crew, Gunner, Illicit, Illicit, Mod</td>
-                                <td>4</td>
-                                <td>7</td>
+                                <td>47</td>
                             </tr>
                             <tr>
                                 <td>$55k</td>
                                 <td>Starviper</td>
                                 <td>Tech, Torpedo, Mod</td>
-                                <td>5</td>
-                                <td>5</td>
+                                <td>55</td>
                             </tr>
                             <tr>
                                 <td>$56k</td>
                                 <td>GAT-12h Skipray Blastboat</td>
                                 <td>Crew, Missile, Torpedo, Gunner, Mod</td>
-                                <td>5</td>
-                                <td>6</td>
+                                <td>56</td>
                             </tr>
                             <tr>
                                 <td>$56k</td>
                                 <td>Lancer Pursuit Craft</td>
                                 <td>Crew, Illicit, Illicit, Mod</td>
-                                <td>5</td>
-                                <td>6</td>
+                                <td>56</td>
                             </tr>
                             <tr>
                                 <td>$60k</td>
                                 <td>YV-666</td>
                                 <td>Cannon, Missile, Crew, Crew, Gunner, Illicit, Mod</td>
-                                <td>5</td>
-                                <td>1</td>
+                                <td>51</td>
                             </tr>
                             <tr>
                                 <td>$62k</td>
                                 <td>Gauntlet Fighter</td>
                                 <td>Crew, Gunner, Illicit, Payload, Mod</td>
-                                <td>5</td>
-                                <td>4</td>
+                                <td>54</td>
                             </tr>
                             <tr>
                                 <td>$63k</td>
                                 <td>PB-950 Patrol Boat</td>
                                 <td>Missile, Gunner, Crew, Crew, Illicit, Mod</td>
-                                <td>6</td>
-                                <td>5</td>
+                                <td>65</td>
                             </tr>
                             <tr>
                                 <td>$65k</td>
                                 <td>Firespray Patrol Craft</td>
                                 <td>Crew, Cannon, Missile, Payload, Illicit, Mod</td>
-                                <td>6</td>
-                                <td>2</td>
+                                <td>62</td>
                             </tr>
                             <tr>
                                 <td>$70k</td>
                                 <td>YT-1300</td>
                                 <td>Missile, Crew, Crew, Illicit, Gunner, Mod</td>
-                                <td>5</td>
-                                <td>0</td>
+                                <td>50</td>
                             </tr>
                             <tr>
                                 <td>$80k</td>
                                 <td>YT-2400</td>
                                 <td>Missile, Crew, Crew, Illicit, Mod</td>
-                                <td>6</td>
-                                <td>9</td>
+                                <td>69</td>
                             </tr>
                         </tbody>
                     </table>
@@ -260,8 +251,7 @@
                                 <th>Cost</th>
                                 <th>Ship Model</th>
                                 <th>Slots</th>
-                                <th>Base</th>
-                                <th>Threat Value</th>
+                                <th>Base Threat Value</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -269,78 +259,67 @@
                                 <td>$33k</td>
                                 <td>TIE/ln Fighter</td>
                                 <td>Mod</td>
-                                <td>2</td>
-                                <td>2</td>
+                                <td>22</td>
                             </tr>
                             <tr>
                                 <td>$65k</td>
                                 <td>TIE/in Interceptor</td>
                                 <td>Mod, Mod</td>
-                                <td>3</td>
-                                <td>2</td>
+                                <td>32</td>
                             </tr>
                             <tr>
                                 <td>$60k</td>
                                 <td>TIE/sa Bomber</td>
                                 <td>Torpedo, Missile, Missile, Gunner, Payload, Payload, Mod</td>
-                                <td>2</td>
-                                <td>9</td>
+                                <td>29</td>
                             </tr>
                             <tr>
                                 <td>$90k</td>
                                 <td>Lambda T4-a Shuttle</td>
                                 <td>Sensor, Cannon, Crew, Crew, Mod</td>
-                                <td>4</td>
-                                <td>1</td>
+                                <td>41</td>
                             </tr>
                             <tr>
                                 <td>$150k</td>
                                 <td>VT-49 Decimator</td>
                                 <td>Torpedo, Crew, Crew, Crew, Gunner, Payload, Mod</td>
-                                <td>6</td>
-                                <td>7</td>
+                                <td>67</td>
                             </tr>
                             <tr>
                                 <td>$82k</td>
                                 <td>T-65 X-wing</td>
                                 <td>Illicit, Torpedo, Astromech, Mod</td>
-                                <td>4</td>
-                                <td>0</td>
+                                <td>40</td>
                             </tr>
                             <tr>
                                 <td>$62k</td>
                                 <td>RZ-1 A-wing</td>
                                 <td>Missile</td>
-                                <td>3</td>
-                                <td>0</td>
+                                <td>30</td>
                             </tr>
                             <tr>
                                 <td>$83k</td>
                                 <td>A/SF-01 B-wing</td>
                                 <td>Sensor, Cannon, Cannon, Torpedo, Mod</td>
-                                <td>4</td>
-                                <td>0</td>
+                                <td>40</td>
                             </tr>
                             <tr>
                                 <td>$88k</td>
                                 <td>UT-60D U-wing</td>
                                 <td>Sensor, Crew, Crew, Illicit, Mod</td>
-                                <td>4</td>
-                                <td>3</td>
+                                <td>43</td>
                             </tr>
                             <tr>
                                 <td>$50k</td>
                                 <td>Naboo Royal N-1 Starfighter</td>
                                 <td>Sensor, Astromech, Torpedo</td>
-                                <td>2</td>
-                                <td>9</td>
+                                <td>29</td>
                             </tr>
                             <tr>
                                 <td>$90k</td>
                                 <td>ARC-170 Starfighter</td>
                                 <td>Torpedo, Crew, Gunner, Astromech, Mod</td>
-                                <td>4</td>
-                                <td>2</td>
+                                <td>42</td>
                             </tr>
                         </tbody>
                     </table>
@@ -350,7 +329,7 @@
             <section class="upgrade-costs">
                 <h2>Upgrades and Modifications</h2>
                 
-                <div class="upgrade-section">
+                <div class="upgrade-section" id="astromech">
                     <h3>Astromech Upgrades</h3>
                     <table class="cost-table">
                         <thead>
@@ -375,7 +354,7 @@
                     </table>
                 </div>
 
-                <div class="upgrade-section">
+                <div class="upgrade-section" id="cannon">
                     <h3>Cannon Upgrades</h3>
                     <table class="cost-table">
                         <thead>
@@ -398,7 +377,7 @@
                     </table>
                 </div>
 
-                <div class="upgrade-section">
+                <div class="upgrade-section" id="crew">
                     <h3>Crew Upgrades</h3>
                     <p><strong>Note:</strong> Scum Crew are treated as a single mission upgrade if hired with credits. The Organizer career may spend XP instead to hire a Scum Crew as a permanent Crew upgrade. The Cyborg career may spend XP to hire Droid Scum Crew as a permanent Crew Upgrade. Once a Scum crew is lost in combat to ship destruction, they cannot be rehired. XP cost is 1 XP per Thousand credits.</p>
                     
@@ -451,8 +430,8 @@
                     </table>
                 </div>
 
-                 Adding remaining upgrade sections with complete data from PDF 
-                <div class="upgrade-section">
+                
+                <div class="upgrade-section" id="gunner">
                     <h3>Gunner Upgrades</h3>
                     <table class="cost-table">
                         <thead>
@@ -482,7 +461,7 @@
                     </table>
                 </div>
 
-                <div class="upgrade-section">
+                <div class="upgrade-section" id="illicit">
                     <h3>Illicit Upgrades</h3>
                     <table class="cost-table">
                         <thead>
@@ -516,7 +495,7 @@
                     </table>
                 </div>
 
-                <div class="upgrade-section">
+                <div class="upgrade-section" id="missile">
                     <h3>Missile Upgrades</h3>
                     <table class="cost-table">
                         <thead>
@@ -544,7 +523,7 @@
                     </table>
                 </div>
 
-                <div class="upgrade-section">
+                <div class="upgrade-section" id="modification">
                     <h3>Modification Upgrades</h3>
                     <table class="cost-table">
                         <thead>
@@ -580,7 +559,7 @@
                     </table>
                 </div>
 
-                <div class="upgrade-section">
+                <div class="upgrade-section" id="payload">
                     <h3>Payload Upgrades</h3>
                     <table class="cost-table">
                         <thead>
@@ -607,7 +586,7 @@
                     </table>
                 </div>
 
-                <div class="upgrade-section">
+                <div class="upgrade-section" id="sensor">
                     <h3>Sensor Upgrades</h3>
                     <table class="cost-table">
                         <thead>
@@ -628,7 +607,7 @@
                     </table>
                 </div>
 
-                <div class="upgrade-section">
+                <div class="upgrade-section" id="tech">
                     <h3>Tech Upgrades</h3>
                     <table class="cost-table">
                         <thead>
@@ -652,7 +631,7 @@
                     </table>
                 </div>
 
-                <div class="upgrade-section">
+                <div class="upgrade-section" id="title">
                     <h3>Title Upgrades</h3>
                     <table class="cost-table">
                         <thead>
@@ -684,7 +663,7 @@
                     </table>
                 </div>
 
-                <div class="upgrade-section">
+                <div class="upgrade-section" id="torpedo">
                     <h3>Torpedo Upgrades</h3>
                     <table class="cost-table">
                         <thead>
@@ -705,7 +684,7 @@
                     </table>
                 </div>
 
-                <div class="upgrade-section">
+                <div class="upgrade-section" id="turret">
                     <h3>Turret Upgrades</h3>
                     <table class="cost-table">
                         <thead>
